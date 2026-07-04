@@ -1,6 +1,484 @@
 const questions = [
 {
 type:"meaning",
+question:"Một điều nhịn, chín điều lành.",
+answers:[
+"Nhẫn nhịn đúng lúc sẽ giúp tránh nhiều điều xấu.",
+"Luôn luôn phải nhịn mọi chuyện.",
+"Không nên tranh luận với bất kỳ ai."
+],
+correct:0,
+explain:"Khuyên con người biết kiềm chế và nhường nhịn để giữ hòa khí."
+},
+
+{
+type:"meaning",
+question:"Thuận vợ thuận chồng, tát biển Đông cũng cạn.",
+answers:[
+"Vợ chồng đồng lòng thì việc khó cũng thành.",
+"Biển Đông rất nông.",
+"Vợ chồng nên làm nghề biển."
+],
+correct:0,
+explain:"Đề cao sự đồng lòng trong gia đình."
+},
+
+{
+type:"meaning",
+question:"Giận quá mất khôn.",
+answers:[
+"Khi nóng giận con người dễ hành động thiếu sáng suốt.",
+"Người nóng tính thường thông minh.",
+"Không nên tức giận vào buổi tối."
+],
+correct:0,
+explain:"Khuyên giữ bình tĩnh để đưa ra quyết định đúng."
+},
+
+{
+type:"meaning",
+question:"Có bệnh thì vái tứ phương.",
+answers:[
+"Khi gặp khó khăn, con người thường tìm mọi cách để giải quyết.",
+"Người bệnh nên đi nhiều nơi.",
+"Chỉ nên chữa bệnh bằng thuốc nam."
+],
+correct:0,
+explain:"Phản ánh tâm lý tìm mọi cách khi lâm vào hoàn cảnh khó khăn."
+},
+
+{
+type:"meaning",
+question:"Con hơn cha là nhà có phúc.",
+answers:[
+"Thế hệ sau giỏi hơn thế hệ trước là điều đáng mừng.",
+"Con phải nghe lời cha tuyệt đối.",
+"Cha mẹ luôn giỏi hơn con."
+],
+correct:0,
+explain:"Khuyến khích sự phát triển của thế hệ sau."
+},
+
+{
+type:"meaning",
+question:"Một sự nhịn, chín sự lành.",
+answers:[
+"Biết nhẫn nhịn sẽ tránh được nhiều rắc rối.",
+"Không bao giờ được phản kháng.",
+"Nhịn ăn sẽ khỏe hơn."
+],
+correct:0,
+explain:"Đề cao sự nhẫn nhịn trong giao tiếp."
+},
+
+{
+type:"meaning",
+question:"Cha mẹ sinh con, trời sinh tính.",
+answers:[
+"Mỗi người có tính cách riêng.",
+"Tính cách hoàn toàn do cha mẹ quyết định.",
+"Con cái luôn giống cha mẹ."
+],
+correct:0,
+explain:"Mỗi người có bản tính và cá tính khác nhau."
+},
+
+{
+type:"meaning",
+question:"Khôn ba năm, dại một giờ.",
+answers:[
+"Chỉ một phút sai lầm cũng có thể phá hỏng công sức lâu dài.",
+"Người khôn sẽ không bao giờ sai.",
+"Ba năm là đủ để thành công."
+],
+correct:0,
+explain:"Khuyên con người luôn cẩn trọng trong mọi việc."
+},
+
+{
+type:"meaning",
+question:"Lạt mềm buộc chặt.",
+answers:[
+"Sự mềm mỏng thường mang lại hiệu quả hơn cứng rắn.",
+"Buộc dây mềm sẽ chắc hơn.",
+"Dây lạt luôn bền nhất."
+],
+correct:0,
+explain:"Khuyên ứng xử khéo léo thay vì cứng nhắc."
+},
+
+{
+type:"meaning",
+question:"Mưu sự tại nhân, thành sự tại thiên.",
+answers:[
+"Con người nên cố gắng, còn kết quả còn phụ thuộc nhiều yếu tố.",
+"Mọi việc đều do trời quyết định.",
+"Không cần cố gắng vì số phận đã an bài."
+],
+correct:0,
+explain:"Khuyên nỗ lực hết mình nhưng cũng biết chấp nhận kết quả."
+},
+
+{
+type:"meaning",
+question:"Của bền tại người.",
+answers:[
+"Biết giữ gìn thì đồ vật sẽ dùng được lâu.",
+"Đồ đắt tiền luôn bền.",
+"Chỉ hàng ngoại mới tốt."
+],
+correct:0,
+explain:"Độ bền phụ thuộc nhiều vào cách sử dụng."
+},
+
+{
+type:"meaning",
+question:"Tránh voi chẳng xấu mặt nào.",
+answers:[
+"Biết tránh xung đột khi cần không phải là hèn nhát.",
+"Không nên nuôi voi.",
+"Voi luôn nguy hiểm."
+],
+correct:0,
+explain:"Khuyên biết lùi một bước đúng lúc để tránh thiệt hại."
+},
+
+{
+type:"meaning",
+question:"Lắm thầy nhiều ma.",
+answers:[
+"Quá nhiều người chỉ đạo dễ dẫn đến rối loạn.",
+"Nhiều thầy giáo sẽ tốt hơn.",
+"Ma thường ở nơi đông người."
+],
+correct:0,
+explain:"Phê phán việc quá nhiều người cùng quyết định một việc."
+},
+
+{
+type:"meaning",
+question:"Một nắng hai sương.",
+answers:[
+"Chỉ sự lao động vất vả, cần cù.",
+"Thời tiết thay đổi liên tục.",
+"Làm việc ngoài trời rất nguy hiểm."
+],
+correct:0,
+explain:"Ca ngợi sự chịu khó của người lao động."
+},
+
+{
+type:"meaning",
+question:"Treo đầu dê, bán thịt chó.",
+answers:[
+"Quảng cáo một đằng, bán một nẻo.",
+"Không nên bán thịt chó.",
+"Dê ngon hơn chó."
+],
+correct:0,
+explain:"Phê phán hành vi lừa dối trong mua bán."
+},
+
+{
+type:"meaning",
+question:"Mèo khen mèo dài đuôi.",
+answers:[
+"Tự khen mình hoặc khen lẫn nhau một cách thiếu khách quan.",
+"Mèo có đuôi rất đẹp.",
+"Nuôi mèo sẽ vui hơn."
+],
+correct:0,
+explain:"Chỉ sự tự đề cao bản thân."
+},
+
+{
+type:"meaning",
+question:"Gieo gió gặt bão.",
+answers:[
+"Làm điều xấu sẽ nhận hậu quả nặng nề.",
+"Gió thường kéo theo bão.",
+"Nông dân sợ bão."
+],
+correct:0,
+explain:"Mọi hành động xấu đều sẽ phải trả giá."
+},
+
+{
+type:"meaning",
+question:"Cháy nhà mới ra mặt chuột.",
+answers:[
+"Biến cố thường làm lộ rõ bản chất hoặc sự thật.",
+"Chuột rất sợ lửa.",
+"Nhà cháy vì có chuột."
+],
+correct:0,
+explain:"Khó khăn giúp bộc lộ những điều trước đó bị che giấu."
+},
+
+{
+type:"meaning",
+question:"Nói có sách, mách có chứng.",
+answers:[
+"Khi nói cần có căn cứ và bằng chứng.",
+"Phải đọc nhiều sách.",
+"Chỉ người học cao mới được phát biểu."
+],
+correct:0,
+explain:"Khuyên phát biểu dựa trên sự thật và chứng cứ."
+},
+
+{
+type:"meaning",
+question:"Đi đâu mà vội mà vàng, mà vấp phải đá mà quàng phải dây.",
+answers:[
+"Làm việc hấp tấp dễ mắc sai lầm.",
+"Đi đường phải nhìn kỹ.",
+"Không nên chạy bộ."
+],
+correct:0,
+explain:"Khuyên con người bình tĩnh, cẩn thận trong mọi việc."
+},
+  {
+type:"meaning",
+question:"Ở hiền gặp lành.",
+answers:[
+"Sống hiền lành sẽ thường gặp điều tốt đẹp.",
+"Người hiền sẽ luôn giàu có.",
+"Không nên tranh cãi với ai."
+],
+correct:0,
+explain:"Khuyên con người sống lương thiện và tin vào điều thiện."
+},
+
+{
+type:"meaning",
+question:"Ác giả ác báo.",
+answers:[
+"Làm điều ác rồi sẽ phải gánh chịu hậu quả.",
+"Người ác luôn bị pháp luật bắt.",
+"Người tốt không bao giờ mắc lỗi."
+],
+correct:0,
+explain:"Khuyên con người tránh làm điều xấu vì sẽ có hậu quả."
+},
+
+{
+type:"meaning",
+question:"Đi một bước, học một sàng khôn.",
+answers:[
+"Chỉ cần đi bộ nhiều.",
+"Mỗi trải nghiệm đều giúp con người trưởng thành.",
+"Đi xa sẽ kiếm được nhiều tiền."
+],
+correct:1,
+explain:"Nhấn mạnh giá trị của trải nghiệm trong việc học hỏi."
+},
+
+{
+type:"meaning",
+question:"Khôn sống, mống chết.",
+answers:[
+"Người biết ứng xử sẽ dễ tồn tại hơn.",
+"Người khôn sẽ sống mãi.",
+"Người nghèo thường khó sống."
+],
+correct:0,
+explain:"Đề cao sự khôn ngoan, linh hoạt trong cuộc sống."
+},
+
+{
+type:"meaning",
+question:"Một miếng khi đói bằng một gói khi no.",
+answers:[
+"Giúp đỡ đúng lúc quý giá hơn rất nhiều.",
+"Ăn ít sẽ tốt cho sức khỏe.",
+"Nên chia thức ăn thành nhiều phần."
+],
+correct:0,
+explain:"Giá trị của sự giúp đỡ nằm ở đúng thời điểm."
+},
+
+{
+type:"meaning",
+question:"Bán anh em xa, mua láng giềng gần.",
+answers:[
+"Láng giềng gần rất quan trọng trong cuộc sống.",
+"Không nên ở gần anh em.",
+"Nên mua nhà gần chợ."
+],
+correct:0,
+explain:"Đề cao tình nghĩa xóm giềng."
+},
+
+{
+type:"meaning",
+question:"Một lần bất tín, vạn lần bất tin.",
+answers:[
+"Chỉ cần xin lỗi là được tha thứ.",
+"Mất lòng tin một lần sẽ rất khó lấy lại.",
+"Không nên hứa hẹn."
+],
+correct:1,
+explain:"Uy tín rất khó gây dựng nhưng rất dễ đánh mất."
+},
+
+{
+type:"meaning",
+question:"Ăn trông nồi, ngồi trông hướng.",
+answers:[
+"Khi ăn phải nhìn nồi cơm.",
+"Biết ý tứ và cư xử đúng mực.",
+"Không nên ngồi quay lưng vào cửa."
+],
+correct:1,
+explain:"Khuyên con người cư xử tinh tế trong mọi hoàn cảnh."
+},
+
+{
+type:"meaning",
+question:"Cười người hôm trước, hôm sau người cười.",
+answers:[
+"Không nên chế giễu người khác.",
+"Người hay cười sẽ vui hơn.",
+"Cười nhiều sẽ khỏe mạnh."
+],
+correct:0,
+explain:"Đừng vội chê bai người khác vì có thể chính mình cũng sẽ mắc lỗi."
+},
+
+{
+type:"meaning",
+question:"Chớ thấy việc thiện nhỏ mà không làm.",
+answers:[
+"Việc tốt dù nhỏ cũng đáng làm.",
+"Chỉ nên làm việc lớn.",
+"Việc nhỏ không quan trọng."
+],
+correct:0,
+explain:"Khuyến khích tích lũy việc tốt từ những điều nhỏ bé."
+},
+
+{
+type:"meaning",
+question:"Chớ thấy việc ác nhỏ mà làm.",
+answers:[
+"Điều xấu dù nhỏ cũng không nên làm.",
+"Việc nhỏ không ảnh hưởng gì.",
+"Điều ác nhỏ có thể bỏ qua."
+],
+correct:0,
+explain:"Mọi hành vi xấu đều có thể dẫn đến hậu quả."
+},
+
+{
+type:"meaning",
+question:"Tích tiểu thành đại.",
+answers:[
+"Từng điều nhỏ sẽ tạo nên thành quả lớn.",
+"Chỉ người giàu mới thành công.",
+"Việc nhỏ không đáng quan tâm."
+],
+correct:0,
+explain:"Kiên trì tích lũy sẽ tạo nên giá trị lớn."
+},
+
+{
+type:"meaning",
+question:"Có qua có lại mới toại lòng nhau.",
+answers:[
+"Quan hệ tốt đẹp cần sự đối đáp và sẻ chia từ hai phía.",
+"Phải trả ơn ngay lập tức.",
+"Không nên nhận giúp đỡ."
+],
+correct:0,
+explain:"Đề cao sự công bằng và tình cảm hai chiều."
+},
+
+{
+type:"meaning",
+question:"Khéo léo thì no, vụng co thì ấm.",
+answers:[
+"Người khéo léo sẽ biết lo liệu cuộc sống.",
+"Người khéo sẽ luôn giàu.",
+"Người vụng thì không thành công."
+],
+correct:0,
+explain:"Khuyên biết tính toán và ứng xử linh hoạt."
+},
+
+{
+type:"meaning",
+question:"Đi thưa, về trình.",
+answers:[
+"Ra vào phải lễ phép, báo với người lớn.",
+"Không nên đi xa.",
+"Đi đâu cũng phải đi cùng người khác."
+],
+correct:0,
+explain:"Dạy phép tắc lễ nghĩa trong gia đình."
+},
+
+{
+type:"meaning",
+question:"Năng nhặt chặt bị.",
+answers:[
+"Chăm chỉ tích góp sẽ trở nên đầy đủ.",
+"Nhặt nhiều đồ sẽ giàu.",
+"Cần mua nhiều cái bị."
+],
+correct:0,
+explain:"Khuyên tiết kiệm và tích lũy từng chút một."
+},
+
+{
+type:"meaning",
+question:"Khéo vá hơn lành may.",
+answers:[
+"Biết sửa chữa còn quý hơn làm mới.",
+"May vá là nghề dễ kiếm tiền.",
+"Quần áo vá luôn đẹp hơn."
+],
+correct:0,
+explain:"Đề cao sự khéo léo và biết tận dụng những gì đang có."
+},
+
+{
+type:"meaning",
+question:"Cây ngay không sợ chết đứng.",
+answers:[
+"Người ngay thẳng không sợ bị vu oan.",
+"Cây thẳng sẽ không đổ.",
+"Cây lớn luôn khỏe mạnh."
+],
+correct:0,
+explain:"Người sống ngay thẳng thì không phải lo sợ điều tiếng."
+},
+
+{
+type:"meaning",
+question:"Đi với học, học với hành.",
+answers:[
+"Học phải đi đôi với thực hành.",
+"Chỉ cần học lý thuyết.",
+"Đi nhiều sẽ học giỏi."
+],
+correct:0,
+explain:"Kiến thức chỉ có giá trị khi được áp dụng vào thực tế."
+},
+
+{
+type:"meaning",
+question:"Một chữ cũng là thầy, nửa chữ cũng là thầy.",
+answers:[
+"Phải biết kính trọng người dạy mình dù chỉ một điều nhỏ.",
+"Chỉ giáo viên mới là thầy.",
+"Ai lớn tuổi hơn đều là thầy."
+],
+correct:0,
+explain:"Đề cao truyền thống tôn sư trọng đạo của người Việt."
+},
+  {
+type:"meaning",
 question:"Mất bò mới lo làm chuồng.",
 answers:[
 "Chỉ biết khắc phục sau khi thiệt hại đã xảy ra.",
