@@ -1,5 +1,961 @@
 const questions = [
 {
+type:"situation",
+question:"Một nhân viên luôn nhận lỗi về mình khi làm sai và chủ động sửa chữa. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Đánh kẻ chạy đi, không ai đánh người chạy lại.",
+"Có tật giật mình.",
+"Tham thì thâm."
+],
+correct:0,
+explain:"Biết nhận lỗi và sửa sai luôn đáng được ghi nhận."
+},
+
+{
+type:"situation",
+question:"Một bạn học sinh rất thông minh nhưng chủ quan, không ôn tập nên thi trượt. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Lửa thử vàng, gian nan thử sức.",
+"Khôn ba năm, dại một giờ.",
+"Có chí thì nên."
+],
+correct:1,
+explain:"Chỉ một phút chủ quan cũng có thể làm hỏng thành quả lâu dài."
+},
+
+{
+type:"situation",
+question:"Một công ty chỉ tuyển người có năng lực thật thay vì chỉ nhìn bằng cấp. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Tốt gỗ hơn tốt nước sơn.",
+"Nói có sách, mách có chứng.",
+"Có qua có lại mới toại lòng nhau."
+],
+correct:0,
+explain:"Đề cao năng lực và phẩm chất hơn hình thức."
+},
+
+{
+type:"situation",
+question:"Một người liên tục khoe mình giàu có nhưng thực chất nợ rất nhiều. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Hữu xạ tự nhiên hương.",
+"Thùng rỗng kêu to.",
+"Ăn ngay nói thật."
+],
+correct:1,
+explain:"Phê phán người thích khoe khoang nhưng không có thực lực."
+},
+
+{
+type:"situation",
+question:"Sau nhiều lần bị từ chối, một startup cuối cùng cũng gọi vốn thành công. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Nước chảy đá mòn.",
+"Đói cho sạch, rách cho thơm.",
+"Đứng núi này trông núi nọ."
+],
+correct:0,
+explain:"Kiên trì theo đuổi mục tiêu sẽ mang lại kết quả."
+},
+
+{
+type:"situation",
+question:"Một người luôn giúp đỡ đồng nghiệp nên khi gặp khó khăn cũng được mọi người giúp lại. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Có qua có lại mới toại lòng nhau.",
+"Tiền nào của nấy.",
+"Khôn nhà dại chợ."
+],
+correct:0,
+explain:"Sự chân thành và sẻ chia sẽ được đáp lại."
+},
+
+{
+type:"situation",
+question:"Một bạn trẻ vừa mới thành công đã coi thường những người từng giúp đỡ mình. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Ăn quả nhớ kẻ trồng cây.",
+"Có thực mới vực được đạo.",
+"Khéo ăn thì no."
+],
+correct:0,
+explain:"Nhắc nhở phải biết ơn những người đã giúp mình."
+},
+
+{
+type:"situation",
+question:"Một người chỉ vì muốn kiếm lời nhanh mà tham gia đường dây lừa đảo và cuối cùng bị bắt. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Tham thì thâm.",
+"Đi một ngày đàng, học một sàng khôn.",
+"Lời chào cao hơn mâm cỗ."
+],
+correct:0,
+explain:"Lòng tham có thể dẫn đến hậu quả nghiêm trọng."
+},
+
+{
+type:"situation",
+question:"Một cô giáo luôn dạy học bằng cả tâm huyết nên học trò rất kính trọng. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Muốn con hay chữ thì yêu lấy thầy.",
+"Học ăn, học nói, học gói, học mở.",
+"Khôn ngoan chẳng lại thật thà."
+],
+correct:0,
+explain:"Đề cao truyền thống tôn sư trọng đạo."
+},
+
+{
+type:"situation",
+question:"Một đội bóng dù có nhiều ngôi sao nhưng thi đấu rời rạc nên liên tục thất bại. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Một cây làm chẳng nên non, ba cây chụm lại nên hòn núi cao.",
+"Có công mài sắt có ngày nên kim.",
+"Đường dài mới biết ngựa hay."
+],
+correct:0,
+explain:"Đoàn kết luôn quan trọng hơn sức mạnh của từng cá nhân."
+},
+
+{
+type:"situation",
+question:"Một người chỉ trích đồng nghiệp rất gay gắt, nhưng sau đó chính mình lại mắc lỗi tương tự. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Cười người hôm trước, hôm sau người cười.",
+"Lá lành đùm lá rách.",
+"Giấy rách phải giữ lấy lề."
+],
+correct:0,
+explain:"Đừng vội phán xét người khác vì chính mình cũng có thể mắc sai lầm."
+},
+
+{
+type:"situation",
+question:"Một bạn sinh viên dành mỗi ngày 30 phút học ngoại ngữ và sau ba năm đã giao tiếp thành thạo. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Tích tiểu thành đại.",
+"Thất bại là mẹ thành công.",
+"Khôn nhà dại chợ."
+],
+correct:0,
+explain:"Kiên trì tích lũy từng chút sẽ tạo nên thành quả lớn."
+},
+
+{
+type:"situation",
+question:"Một người luôn giữ bình tĩnh khi bị khách hàng phàn nàn nên cuối cùng vẫn giải quyết được vấn đề. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Giận quá mất khôn.",
+"Một điều nhịn, chín điều lành.",
+"Đồng tiền đi trước là đồng tiền khôn."
+],
+correct:1,
+explain:"Biết nhẫn nhịn và giữ bình tĩnh sẽ giúp giải quyết mâu thuẫn tốt hơn."
+},
+
+{
+type:"situation",
+question:"Một người thường xuyên đi muộn rồi đổ lỗi cho giao thông, thời tiết và mọi người xung quanh. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Tiên trách kỷ, hậu trách nhân.",
+"Có bệnh thì vái tứ phương.",
+"Thương người như thể thương thân."
+],
+correct:0,
+explain:"Khuyên mỗi người nên tự nhìn lại bản thân trước khi trách người khác."
+},
+
+{
+type:"situation",
+question:"Một doanh nghiệp luôn giữ chất lượng sản phẩm nên dù không quảng cáo nhiều vẫn có rất đông khách hàng. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Hữu xạ tự nhiên hương.",
+"Treo đầu dê, bán thịt chó.",
+"Tiền nào của nấy."
+],
+correct:0,
+explain:"Chất lượng thật sẽ tự tạo nên danh tiếng."
+},
+
+{
+type:"situation",
+question:"Một người thấy bạn thành công thì ganh tị thay vì chúc mừng. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Trâu buộc ghét trâu ăn.",
+"Có đức mặc sức mà ăn.",
+"Đi một ngày đàng học một sàng khôn."
+],
+correct:0,
+explain:"Phê phán sự đố kỵ trước thành công của người khác."
+},
+
+{
+type:"situation",
+question:"Một bạn trẻ đến Nhật Bản và chủ động tìm hiểu phong tục để cư xử đúng mực. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Nhập gia tùy tục.",
+"Lời nói gói vàng.",
+"Đói cho sạch, rách cho thơm."
+],
+correct:0,
+explain:"Khuyên tôn trọng văn hóa và tập quán của nơi mình đến."
+},
+
+{
+type:"situation",
+question:"Một người luôn suy nghĩ rất lâu nhưng không bao giờ bắt tay vào làm. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Người làm thì có, người lo thì chẳng.",
+"Có chí thì nên.",
+"Đường dài mới biết ngựa hay."
+],
+correct:0,
+explain:"Chỉ lo nghĩ mà không hành động sẽ không mang lại kết quả."
+},
+
+{
+type:"situation",
+question:"Một người sau khi có tiền thì quay lưng với những người từng giúp mình lúc khó khăn. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Có mới nới cũ.",
+"Ăn quả nhớ kẻ trồng cây.",
+"Đói cho sạch, rách cho thơm."
+],
+correct:0,
+explain:"Phê phán sự bạc bẽo, quên nghĩa tình khi có điều kiện tốt hơn."
+},
+
+{
+type:"situation",
+question:"Một cậu bé thường xuyên hỏi người lớn mỗi khi không hiểu điều gì nên ngày càng hiểu biết hơn. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Biết thì thưa thốt, không biết thì dựa cột mà nghe.",
+"Đi với bụt mặc áo cà sa.",
+"Lửa thử vàng, gian nan thử sức."
+],
+correct:0,
+explain:"Khuyến khích sự khiêm tốn và tinh thần học hỏi."
+},
+  {
+type:"situation",
+question:"Một bạn trẻ liên tục thay đổi công việc chỉ vì thấy nơi khác có vẻ hấp dẫn hơn. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Đứng núi này trông núi nọ.",
+"Có chí thì nên.",
+"Đi một ngày đàng, học một sàng khôn."
+],
+correct:0,
+explain:"Phê phán thái độ không biết hài lòng, luôn nhìn sang cái mình chưa có."
+},
+
+{
+type:"situation",
+question:"Sau nhiều năm kiên trì luyện đàn mỗi ngày, cuối cùng Huy trở thành nghệ sĩ chuyên nghiệp. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Lửa thử vàng, gian nan thử sức.",
+"Nước chảy đá mòn.",
+"Có thực mới vực được đạo."
+],
+correct:1,
+explain:"Sự kiên trì bền bỉ sẽ mang lại thành quả."
+},
+
+{
+type:"situation",
+question:"Một cửa hàng quảng cáo hàng chính hãng nhưng lại bán hàng giả. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Treo đầu dê, bán thịt chó.",
+"Lời nói gói vàng.",
+"Có vay có trả."
+],
+correct:0,
+explain:"Chỉ hành vi quảng cáo một đằng, làm một nẻo."
+},
+
+{
+type:"situation",
+question:"Một người chỉ thích chỉ đạo nhưng bản thân lại không làm gì cả. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Lắm thầy nhiều ma.",
+"Ăn không ngồi rồi.",
+"Năng nhặt chặt bị."
+],
+correct:1,
+explain:"Chỉ người lười biếng, không chịu lao động."
+},
+
+{
+type:"situation",
+question:"Một công ty có quá nhiều người cùng đưa ra quyết định khiến dự án ngày càng rối. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Lắm thầy nhiều ma.",
+"Cây ngay không sợ chết đứng.",
+"Tham thì thâm."
+],
+correct:0,
+explain:"Quá nhiều người chỉ huy dễ dẫn đến hỗn loạn."
+},
+
+{
+type:"situation",
+question:"Sau khi chuyển đến môi trường làm việc tích cực, Trang trở nên tự tin và chăm chỉ hơn trước. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Gần mực thì đen, gần đèn thì sáng.",
+"Ở hiền gặp lành.",
+"Khéo ăn thì no."
+],
+correct:0,
+explain:"Môi trường sống và làm việc ảnh hưởng lớn đến con người."
+},
+
+{
+type:"situation",
+question:"Một người luôn nói có bằng chứng, số liệu rõ ràng nên ý kiến rất thuyết phục. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Nói có sách, mách có chứng.",
+"Lời nói gói vàng.",
+"Im lặng là vàng."
+],
+correct:0,
+explain:"Khuyên phát biểu dựa trên căn cứ xác thực."
+},
+
+{
+type:"situation",
+question:"Thấy bạn gặp tai nạn, cả nhóm cùng góp tiền và thay nhau chăm sóc. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Một con ngựa đau, cả tàu bỏ cỏ.",
+"Đường dài mới biết ngựa hay.",
+"Khôn sống mống chết."
+],
+correct:0,
+explain:"Đề cao tinh thần sẻ chia và đoàn kết."
+},
+
+{
+type:"situation",
+question:"Một nhân viên chỉ tỏ ra giỏi trước mặt người nhà nhưng khi gặp khách hàng lại lúng túng. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Khôn nhà dại chợ.",
+"Thùng rỗng kêu to.",
+"Ăn ngay nói thật."
+],
+correct:0,
+explain:"Phê phán người chỉ giỏi trong phạm vi quen thuộc."
+},
+
+{
+type:"situation",
+question:"Sau nhiều lần bị lừa vì quá tin người, Minh rút ra bài học phải quan sát kỹ hơn. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Sông sâu còn có kẻ dò, lòng người nham hiểm ai đo cho cùng.",
+"Ở hiền gặp lành.",
+"Có đức mặc sức mà ăn."
+],
+correct:0,
+explain:"Nhắc nhở phải thận trọng trong việc nhìn người."
+},
+
+{
+type:"situation",
+question:"Một doanh nghiệp chấp nhận lùi một bước trong đàm phán để giữ mối quan hệ lâu dài. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Tránh voi chẳng xấu mặt nào.",
+"Có vay có trả.",
+"Đói cho sạch, rách cho thơm."
+],
+correct:0,
+explain:"Biết nhường nhịn đúng lúc không phải là yếu đuối."
+},
+
+{
+type:"situation",
+question:"Một bạn sinh viên luôn hoàn thành bài tập đúng hạn thay vì để sát deadline. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Làm việc hôm nay chớ để ngày mai.",
+"Có bệnh thì vái tứ phương.",
+"Tham thì thâm."
+],
+correct:0,
+explain:"Khuyên tránh trì hoãn công việc."
+},
+
+{
+type:"situation",
+question:"Một người nhờ chăm chỉ tiết kiệm từng khoản nhỏ nên sau vài năm đã mua được căn nhà đầu tiên. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Năng nhặt chặt bị.",
+"Có thực mới vực được đạo.",
+"Khôn sống mống chết."
+],
+correct:0,
+explain:"Những khoản tích lũy nhỏ sẽ tạo nên thành quả lớn."
+},
+
+{
+type:"situation",
+question:"Một diễn giả rất nổi tiếng nhưng luôn cư xử khiêm tốn và không khoe khoang. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Hữu xạ tự nhiên hương.",
+"Thùng rỗng kêu to.",
+"Tiền nào của nấy."
+],
+correct:0,
+explain:"Người có năng lực thật không cần phô trương."
+},
+
+{
+type:"situation",
+question:"Một người chỉ bắt đầu tập thể dục sau khi bác sĩ chẩn đoán mắc bệnh nặng. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Mất bò mới lo làm chuồng.",
+"Có công mài sắt có ngày nên kim.",
+"Giấy rách phải giữ lấy lề."
+],
+correct:0,
+explain:"Phê phán việc không phòng ngừa từ sớm."
+},
+
+{
+type:"situation",
+question:"Một người luôn giữ lời hứa dù phải chịu thiệt một chút nên ai cũng quý trọng. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Một chữ tín hơn vạn chữ vàng.",
+"Có thực mới vực được đạo.",
+"Lạt mềm buộc chặt."
+],
+correct:0,
+explain:"Giữ chữ tín là nền tảng của niềm tin."
+},
+
+{
+type:"situation",
+question:"Một nhóm khởi nghiệp có nhiều người rất giỏi nhưng ai cũng muốn làm trưởng nhóm nên dự án thất bại. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Lắm thầy nhiều ma.",
+"Đường dài mới biết ngựa hay.",
+"Nói có sách, mách có chứng."
+],
+correct:0,
+explain:"Quá nhiều người chỉ huy dễ khiến công việc rối loạn."
+},
+
+{
+type:"situation",
+question:"Một người luôn đánh giá người khác chỉ qua quần áo và xe cộ họ đang sử dụng. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Tốt gỗ hơn tốt nước sơn.",
+"Có đức mặc sức mà ăn.",
+"Nước chảy đá mòn."
+],
+correct:0,
+explain:"Không nên chỉ nhìn vẻ bề ngoài để đánh giá con người."
+},
+
+{
+type:"situation",
+question:"Một bạn trẻ mới ra trường thường xuyên hỏi ý kiến người có kinh nghiệm trước khi đưa ra quyết định quan trọng. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Đi hỏi già, về nhà hỏi trẻ.",
+"Có bệnh thì vái tứ phương.",
+"Đi với bụt mặc áo cà sa."
+],
+correct:0,
+explain:"Khuyên biết học hỏi kinh nghiệm từ người khác."
+},
+
+{
+type:"situation",
+question:"Một nhân viên rất giỏi chuyên môn nhưng thường xuyên nóng giận nên mất lòng đồng nghiệp. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Giận quá mất khôn.",
+"Đường dài mới biết ngựa hay.",
+"Đi một ngày đàng, học một sàng khôn."
+],
+correct:0,
+explain:"Nóng giận khiến con người dễ hành động và quyết định thiếu sáng suốt."
+},
+  {
+type:"situation",
+question:"Nam thi trượt đại học hai lần nhưng vẫn quyết tâm ôn luyện thêm một năm nữa. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Thất bại là mẹ thành công.",
+"Ăn quả nhớ kẻ trồng cây.",
+"Gần mực thì đen, gần đèn thì sáng."
+],
+correct:0,
+explain:"Thất bại giúp con người rút kinh nghiệm để đi tới thành công."
+},
+
+{
+type:"situation",
+question:"Lan luôn biết ơn cô giáo cũ và thường xuyên quay về thăm hỏi. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Uống nước nhớ nguồn.",
+"Có công mài sắt, có ngày nên kim.",
+"Lửa thử vàng, gian nan thử sức."
+],
+correct:0,
+explain:"Nhắc nhở con người biết ơn những người đã giúp đỡ mình."
+},
+
+{
+type:"situation",
+question:"Một nhóm sinh viên cùng hợp tác làm đồ án nên hoàn thành nhanh hơn rất nhiều. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Một cây làm chẳng nên non, ba cây chụm lại nên hòn núi cao.",
+"Có chí thì nên.",
+"Tiền nào của nấy."
+],
+correct:0,
+explain:"Đề cao sức mạnh của sự đoàn kết."
+},
+
+{
+type:"situation",
+question:"Minh rất chăm chỉ học hỏi, đi nhiều nơi và tiếp xúc với nhiều người nên ngày càng hiểu biết hơn. Câu nào phù hợp nhất?",
+answers:[
+"Đi một ngày đàng, học một sàng khôn.",
+"Có thực mới vực được đạo.",
+"Tấc đất tấc vàng."
+],
+correct:0,
+explain:"Trải nghiệm thực tế giúp con người trưởng thành."
+},
+
+{
+type:"situation",
+question:"Dù gia đình nghèo nhưng Hùng luôn sống trung thực, không lấy của ai. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Đói cho sạch, rách cho thơm.",
+"Có vay có trả.",
+"Tham thì thâm."
+],
+correct:0,
+explain:"Khuyên giữ phẩm chất tốt dù hoàn cảnh khó khăn."
+},
+
+{
+type:"situation",
+question:"Một nhân viên luôn khoe khoang mình giỏi nhưng kết quả công việc lại rất kém. Câu nào phù hợp nhất?",
+answers:[
+"Thùng rỗng kêu to.",
+"Có chí thì nên.",
+"Hữu xạ tự nhiên hương."
+],
+correct:0,
+explain:"Phê phán người thích khoác lác nhưng thiếu năng lực."
+},
+
+{
+type:"situation",
+question:"Sau khi gây thiệt hại lớn, công ty mới bắt đầu xây dựng quy trình phòng ngừa. Câu nào phù hợp nhất?",
+answers:[
+"Mất bò mới lo làm chuồng.",
+"Cây ngay không sợ chết đứng.",
+"Lời chào cao hơn mâm cỗ."
+],
+correct:0,
+explain:"Phê phán việc chỉ sửa sai sau khi hậu quả đã xảy ra."
+},
+
+{
+type:"situation",
+question:"Mai luôn giúp đỡ bạn bè khi họ gặp khó khăn mà không mong được đền đáp. Câu nào phù hợp nhất?",
+answers:[
+"Lá lành đùm lá rách.",
+"Đồng tiền đi trước là đồng tiền khôn.",
+"Khéo ăn thì no."
+],
+correct:0,
+explain:"Khuyên con người biết giúp đỡ nhau."
+},
+
+{
+type:"situation",
+question:"Một người vì quá tham lợi nhuận nên đầu tư liều lĩnh và mất sạch tiền. Câu nào phù hợp nhất?",
+answers:[
+"Tham thì thâm.",
+"Có công mài sắt.",
+"Tốt gỗ hơn tốt nước sơn."
+],
+correct:0,
+explain:"Lòng tham quá mức thường dẫn đến hậu quả."
+},
+
+{
+type:"situation",
+question:"Một học sinh mới chuyển sang lớp có nhiều bạn chăm học nên kết quả học tập tiến bộ rõ rệt. Câu nào phù hợp nhất?",
+answers:[
+"Gần mực thì đen, gần đèn thì sáng.",
+"Tiền nào của nấy.",
+"Có thực mới vực được đạo."
+],
+correct:0,
+explain:"Môi trường sống và bạn bè ảnh hưởng lớn đến con người."
+},
+
+{
+type:"situation",
+question:"Một doanh nhân giữ đúng mọi lời hứa với khách hàng nên ai cũng tin tưởng hợp tác. Câu nào phù hợp nhất?",
+answers:[
+"Một chữ tín hơn vạn chữ vàng.",
+"Đói cho sạch, rách cho thơm.",
+"Thua keo này bày keo khác."
+],
+correct:0,
+explain:"Uy tín là nền tảng của niềm tin."
+},
+
+{
+type:"situation",
+question:"Trong cuộc họp, An bình tĩnh lắng nghe mọi người rồi mới phát biểu. Câu nào phù hợp nhất?",
+answers:[
+"Biết thì thưa thốt, không biết thì dựa cột mà nghe.",
+"Có làm thì mới có ăn.",
+"Khôn sống mống chết."
+],
+correct:0,
+explain:"Khuyên khiêm tốn học hỏi trước khi phát biểu."
+},
+
+{
+type:"situation",
+question:"Một người chỉ quan tâm đến vẻ ngoài của ứng viên mà bỏ qua năng lực thật. Câu nào phù hợp nhất?",
+answers:[
+"Tốt gỗ hơn tốt nước sơn.",
+"Tiền nào của nấy.",
+"Ăn xem nồi, ngồi xem hướng."
+],
+correct:0,
+explain:"Đừng đánh giá con người chỉ qua hình thức."
+},
+
+{
+type:"situation",
+question:"Hai anh em cãi nhau vì chuyện nhỏ khiến cả gia đình buồn lòng. Câu nào phù hợp nhất?",
+answers:[
+"Anh em như thể tay chân.",
+"Có thực mới vực được đạo.",
+"Đi một ngày đàng học một sàng khôn."
+],
+correct:0,
+explain:"Khuyên anh em phải yêu thương và đoàn kết."
+},
+
+{
+type:"situation",
+question:"Một nhân viên mới luôn lễ phép với đồng nghiệp và cấp trên nên rất được yêu quý. Câu nào phù hợp nhất?",
+answers:[
+"Lời chào cao hơn mâm cỗ.",
+"Tham thì thâm.",
+"Có bệnh thì vái tứ phương."
+],
+correct:0,
+explain:"Lễ phép và lịch sự luôn được đánh giá cao."
+},
+
+{
+type:"situation",
+question:"Một người liên tục nói xấu người khác nhưng cuối cùng chính mình cũng mắc lỗi tương tự. Câu nào phù hợp nhất?",
+answers:[
+"Cười người hôm trước, hôm sau người cười.",
+"Ăn quả nhớ kẻ trồng cây.",
+"Khôn nhà dại chợ."
+],
+correct:0,
+explain:"Đừng vội chê bai người khác."
+},
+
+{
+type:"situation",
+question:"Một cô gái luôn giữ bình tĩnh mỗi khi xảy ra mâu thuẫn nên mọi chuyện đều được giải quyết êm đẹp. Câu nào phù hợp nhất?",
+answers:[
+"Một điều nhịn, chín điều lành.",
+"Có chí thì nên.",
+"Có làm thì mới có ăn."
+],
+correct:0,
+explain:"Biết nhường nhịn giúp tránh nhiều xung đột."
+},
+
+{
+type:"situation",
+question:"Một người làm từ thiện nhưng vẫn bị một số người hiểu lầm và chỉ trích. Câu nào phù hợp nhất?",
+answers:[
+"Làm phúc phải tội.",
+"Nước chảy đá mòn.",
+"Khéo ăn thì no."
+],
+correct:0,
+explain:"Đôi khi làm việc tốt vẫn có thể bị hiểu sai."
+},
+
+{
+type:"situation",
+question:"Một bạn trẻ quyết định ra nước ngoài học tập để mở mang kiến thức và trải nghiệm. Câu nào phù hợp nhất?",
+answers:[
+"Đi một ngày đàng, học một sàng khôn.",
+"Tiền nào của nấy.",
+"Đói cho sạch, rách cho thơm."
+],
+correct:0,
+explain:"Đi nhiều, trải nghiệm nhiều sẽ học hỏi được nhiều điều."
+},
+
+{
+type:"situation",
+question:"Một nhóm bạn liên tục trì hoãn việc làm bài tập đến sát hạn mới cuống cuồng hoàn thành. Câu nào phù hợp nhất?",
+answers:[
+"Làm việc hôm nay chớ để ngày mai.",
+"Có thực mới vực được đạo.",
+"Cây ngay không sợ chết đứng."
+],
+correct:0,
+explain:"Khuyên không nên trì hoãn công việc."
+},
+  {
+type:"meaning",
+question:"Giàu vì bạn, sang vì vợ.",
+answers:[
+"Bạn bè và người bạn đời tốt có thể góp phần tạo nên thành công.",
+"Muốn giàu phải kết hôn với người giàu.",
+"Chỉ cần nhiều bạn là sẽ giàu."
+],
+correct:0,
+explain:"Đề cao vai trò của các mối quan hệ tốt đẹp trong cuộc sống."
+},
+
+{
+type:"meaning",
+question:"Một chữ tín hơn vạn chữ vàng.",
+answers:[
+"Tiền bạc luôn quan trọng hơn.",
+"Uy tín quý giá hơn mọi của cải.",
+"Người giàu luôn đáng tin."
+],
+correct:1,
+explain:"Khuyên con người giữ chữ tín trong mọi việc."
+},
+
+{
+type:"meaning",
+question:"Người sao một hẹn thì nên, người sao chín hẹn thì quên cả mười.",
+answers:[
+"Người hay thất hứa sẽ khó được tin tưởng.",
+"Nên hẹn nhiều lần.",
+"Không nên hứa với ai."
+],
+correct:0,
+explain:"Phê phán người không giữ lời hứa."
+},
+
+{
+type:"meaning",
+question:"Đi hỏi già, về nhà hỏi trẻ.",
+answers:[
+"Người già và trẻ nhỏ đều có những hiểu biết riêng đáng để học hỏi.",
+"Chỉ nên hỏi người già.",
+"Trẻ em luôn đúng."
+],
+correct:0,
+explain:"Khuyên biết lắng nghe ý kiến phù hợp từ nhiều người."
+},
+
+{
+type:"meaning",
+question:"Sẩy chân còn hơn sẩy miệng.",
+answers:[
+"Lời nói thiếu cẩn trọng có thể gây hậu quả lớn.",
+"Đi đứng phải cẩn thận.",
+"Không nên nói nhiều."
+],
+correct:0,
+explain:"Nhắc nhở phải cẩn trọng trong lời nói."
+},
+
+{
+type:"meaning",
+question:"Ở chọn nơi, chơi chọn bạn.",
+answers:[
+"Môi trường sống và bạn bè ảnh hưởng đến con người.",
+"Chỉ nên sống ở thành phố.",
+"Không nên chơi với nhiều người."
+],
+correct:0,
+explain:"Khuyên lựa chọn môi trường và bạn bè tốt."
+},
+
+{
+type:"meaning",
+question:"Khôn ngoan đến cửa quan mới biết.",
+answers:[
+"Trong hoàn cảnh khó khăn mới biết ai thực sự giỏi.",
+"Quan lại luôn thông minh.",
+"Muốn khôn phải làm quan."
+],
+correct:0,
+explain:"Năng lực thật chỉ bộc lộ khi đối mặt thử thách."
+},
+
+{
+type:"meaning",
+question:"Đói ăn rau, đau uống thuốc.",
+answers:[
+"Mọi việc đều cần xử lý đúng cách và đúng lúc.",
+"Chỉ nên ăn rau.",
+"Đau thì không nên ăn."
+],
+correct:0,
+explain:"Khuyên ứng xử hợp lý trước từng hoàn cảnh."
+},
+
+{
+type:"meaning",
+question:"Người làm thì có, người lo thì chẳng.",
+answers:[
+"Lo lắng suông không bằng bắt tay vào hành động.",
+"Người chăm lo sẽ nghèo.",
+"Làm việc nhiều sẽ mệt."
+],
+correct:0,
+explain:"Đề cao hành động hơn sự lo nghĩ."
+},
+
+{
+type:"meaning",
+question:"Có chí thì nên, có nền thì vững.",
+answers:[
+"Ý chí và nền tảng tốt sẽ giúp thành công bền vững.",
+"Chỉ cần may mắn là đủ.",
+"Người giàu luôn thành công."
+],
+correct:0,
+explain:"Khuyên rèn luyện ý chí và xây dựng nền tảng vững chắc."
+},
+
+{
+type:"meaning",
+question:"Nói phải củ cải cũng nghe.",
+answers:[
+"Lời nói đúng đắn sẽ có sức thuyết phục.",
+"Củ cải biết nghe người nói.",
+"Muốn người khác nghe phải nói to."
+],
+correct:0,
+explain:"Khuyên nói có lý lẽ và đúng mực."
+},
+
+{
+type:"meaning",
+question:"Khéo ăn thì được, khéo nói thì hay.",
+answers:[
+"Ứng xử khéo léo giúp công việc và quan hệ tốt đẹp hơn.",
+"Người nói hay luôn giàu.",
+"Ăn ngon sẽ khỏe."
+],
+correct:0,
+explain:"Đề cao sự tinh tế trong giao tiếp."
+},
+
+{
+type:"meaning",
+question:"Đồng thanh tương ứng, đồng khí tương cầu.",
+answers:[
+"Những người giống nhau về chí hướng thường tìm đến nhau.",
+"Người cùng quê dễ gặp nhau.",
+"Bạn bè nên ở gần nhau."
+],
+correct:0,
+explain:"Những người có cùng tư tưởng, sở thích thường gắn kết."
+},
+
+{
+type:"meaning",
+question:"Khôn sống mống chết.",
+answers:[
+"Biết ứng xử và thích nghi sẽ dễ tồn tại hơn.",
+"Người khôn không bao giờ chết.",
+"Chỉ người khỏe mới sống lâu."
+],
+correct:0,
+explain:"Đề cao sự linh hoạt và khôn ngoan trong cuộc sống."
+},
+
+{
+type:"meaning",
+question:"Ăn ngay nói thật.",
+answers:[
+"Sống trung thực và thẳng thắn.",
+"Nên nói hết mọi suy nghĩ.",
+"Chỉ cần không nói dối."
+],
+correct:0,
+explain:"Khuyên con người sống chân thật và ngay thẳng."
+},
+
+{
+type:"meaning",
+question:"Chết đứng còn hơn sống quỳ.",
+answers:[
+"Phải giữ phẩm giá và khí phách.",
+"Không nên quỳ gối.",
+"Người đứng sẽ khỏe hơn."
+],
+correct:0,
+explain:"Đề cao lòng tự trọng và danh dự."
+},
+
+{
+type:"meaning",
+question:"Có đức mặc sức mà ăn.",
+answers:[
+"Người sống có đạo đức sẽ gặp nhiều điều tốt đẹp.",
+"Người tốt sẽ luôn giàu có.",
+"Có nhiều thức ăn mới là hạnh phúc."
+],
+correct:0,
+explain:"Khuyên tích đức và sống lương thiện."
+},
+
+{
+type:"meaning",
+question:"Đi một ngày đàng, sàng một khôn.",
+answers:[
+"Trải nghiệm giúp con người tích lũy hiểu biết.",
+"Đi xa sẽ giàu có.",
+"Đi nhiều sẽ khỏe hơn."
+],
+correct:0,
+explain:"Mỗi trải nghiệm đều mang lại bài học mới."
+},
+
+{
+type:"meaning",
+question:"Khéo ăn thì no, khéo học thì giỏi.",
+answers:[
+"Muốn giỏi phải biết học hỏi đúng cách.",
+"Chỉ cần học nhiều là đủ.",
+"Người ăn khỏe sẽ học giỏi."
+],
+correct:0,
+explain:"Khuyên học tập có phương pháp và chủ động."
+},
+
+{
+type:"meaning",
+question:"Một lời nhịn, chín lời lành.",
+answers:[
+"Nhẫn nhịn trong lời nói giúp tránh nhiều mâu thuẫn.",
+"Không nên nói chuyện với ai.",
+"Nói ít sẽ luôn đúng."
+],
+correct:0,
+explain:"Khuyên kiềm chế lời nói để giữ hòa khí."
+},
+  {
 type:"meaning",
 question:"Ở bầu thì tròn, ở ống thì dài.",
 answers:[
