@@ -1,6 +1,245 @@
 const questions = [
 {
 type:"meaning",
+question:"Mất bò mới lo làm chuồng.",
+answers:[
+"Chỉ biết khắc phục sau khi thiệt hại đã xảy ra.",
+"Nuôi bò rất khó.",
+"Chuồng bò cần xây chắc chắn."
+],
+correct:0,
+explain:"Phê phán sự chủ quan, không biết phòng ngừa từ trước."
+},
+
+{
+type:"meaning",
+question:"Đi đêm lắm có ngày gặp ma.",
+answers:[
+"Làm điều xấu lâu ngày sẽ có lúc gặp hậu quả.",
+"Ban đêm rất nguy hiểm.",
+"Không nên đi chơi tối."
+],
+correct:0,
+explain:"Khuyên con người sống ngay thẳng, không làm điều sai trái."
+},
+
+{
+type:"meaning",
+question:"Tham thì thâm.",
+answers:[
+"Tham lam thường dẫn đến thiệt hại.",
+"Người tham sẽ giàu.",
+"Làm việc chăm chỉ sẽ thành công."
+],
+correct:0,
+explain:"Cảnh báo hậu quả của lòng tham."
+},
+
+{
+type:"meaning",
+question:"Một nghề cho chín còn hơn chín nghề.",
+answers:[
+"Nên làm thật giỏi một nghề.",
+"Biết nhiều nghề luôn tốt hơn.",
+"Càng đổi nghề càng thành công."
+],
+correct:0,
+explain:"Khuyên tập trung rèn luyện để thành thạo một nghề."
+},
+
+{
+type:"meaning",
+question:"Hữu xạ tự nhiên hương.",
+answers:[
+"Giá trị thật sẽ tự được mọi người biết đến.",
+"Có nước hoa sẽ thơm.",
+"Hoa nào cũng có mùi thơm."
+],
+correct:0,
+explain:"Người có tài năng, phẩm chất tốt sẽ tự được ghi nhận."
+},
+
+{
+type:"meaning",
+question:"Tốt danh hơn lành áo.",
+answers:[
+"Danh dự quý hơn vật chất.",
+"Quần áo đẹp quan trọng nhất.",
+"Người nổi tiếng luôn hạnh phúc."
+],
+correct:0,
+explain:"Đề cao danh dự và nhân phẩm."
+},
+
+{
+type:"meaning",
+question:"Đói ăn rau, đau uống thuốc.",
+answers:[
+"Phải biết ứng xử hợp lý trong từng hoàn cảnh.",
+"Chỉ nên ăn rau.",
+"Đau thì không nên ăn."
+],
+correct:0,
+explain:"Khuyên con người xử lý mọi việc theo lẽ tự nhiên và hợp lý."
+},
+
+{
+type:"meaning",
+question:"Kính trên nhường dưới.",
+answers:[
+"Tôn trọng người lớn, nhường nhịn người nhỏ.",
+"Người lớn luôn đúng.",
+"Trẻ em phải nghe lời tuyệt đối."
+],
+correct:0,
+explain:"Dạy cách ứng xử lễ phép trong gia đình và xã hội."
+},
+
+{
+type:"meaning",
+question:"Chim khôn kêu tiếng rảnh rang, người khôn nói tiếng dịu dàng dễ nghe.",
+answers:[
+"Người khôn luôn nói năng nhẹ nhàng, lịch sự.",
+"Nói nhỏ mới là người giỏi.",
+"Không nên nói nhiều."
+],
+correct:0,
+explain:"Khuyên con người giao tiếp nhã nhặn, có chừng mực."
+},
+
+{
+type:"meaning",
+question:"Nước chảy đá mòn.",
+answers:[
+"Sự bền bỉ sẽ vượt qua khó khăn.",
+"Đá rất mềm.",
+"Nước mạnh hơn lửa."
+],
+correct:0,
+explain:"Kiên trì lâu dài sẽ tạo nên kết quả lớn."
+},
+
+{
+type:"meaning",
+question:"Đi hỏi già, về nhà hỏi trẻ.",
+answers:[
+"Mỗi người đều có kinh nghiệm riêng đáng học hỏi.",
+"Chỉ nên hỏi người già.",
+"Người trẻ biết nhiều hơn người già."
+],
+correct:0,
+explain:"Khuyên biết lắng nghe ý kiến phù hợp từ nhiều đối tượng."
+},
+
+{
+type:"meaning",
+question:"Chớp đông nhay nháy, gà gáy thì mưa.",
+answers:[
+"Kinh nghiệm dự báo thời tiết của dân gian.",
+"Trời luôn mưa khi gà gáy.",
+"Gà biết gọi mưa."
+],
+correct:0,
+explain:"Đúc kết kinh nghiệm quan sát thiên nhiên."
+},
+
+{
+type:"meaning",
+question:"Nhà sạch thì mát, bát sạch ngon cơm.",
+answers:[
+"Giữ gìn vệ sinh giúp cuộc sống dễ chịu hơn.",
+"Chỉ cần rửa bát.",
+"Nhà to sẽ mát."
+],
+correct:0,
+explain:"Khuyên giữ gìn vệ sinh, ngăn nắp."
+},
+
+{
+type:"meaning",
+question:"Khéo ăn thì no, khéo nói thì người ta nghe.",
+answers:[
+"Giao tiếp khéo léo sẽ được người khác tôn trọng.",
+"Chỉ cần nói nhiều.",
+"Ăn ngon sẽ khỏe."
+],
+correct:0,
+explain:"Đề cao sự khéo léo trong lời ăn tiếng nói."
+},
+
+{
+type:"meaning",
+question:"Lời nói chẳng mất tiền mua, lựa lời mà nói cho vừa lòng nhau.",
+answers:[
+"Nói khéo giúp giữ hòa khí.",
+"Không nên nói thật.",
+"Càng nói nhiều càng tốt."
+],
+correct:0,
+explain:"Khuyên con người nói năng lịch sự, biết cân nhắc."
+},
+
+{
+type:"meaning",
+question:"Cá không ăn muối cá ươn, con cãi cha mẹ trăm đường con hư.",
+answers:[
+"Khuyên con cái biết lắng nghe lời dạy bảo đúng đắn của cha mẹ.",
+"Không nên ăn cá.",
+"Cha mẹ lúc nào cũng đúng."
+],
+correct:0,
+explain:"Đề cao vai trò của việc giáo dục trong gia đình."
+},
+
+{
+type:"meaning",
+question:"Đèn nhà ai nấy rạng.",
+answers:[
+"Mỗi người nên tự lo trách nhiệm của mình.",
+"Nhà nào cũng cần bật đèn.",
+"Đèn càng sáng càng tốt."
+],
+correct:0,
+explain:"Chỉ việc ai nên tự lo việc của mình."
+},
+
+{
+type:"meaning",
+question:"Có bột mới gột nên hồ.",
+answers:[
+"Muốn làm được việc phải có điều kiện cần thiết.",
+"Chỉ cần có tiền là đủ.",
+"Bột quý hơn gạo."
+],
+correct:0,
+explain:"Muốn có kết quả phải chuẩn bị đầy đủ nguồn lực."
+},
+
+{
+type:"meaning",
+question:"Làm phúc phải tội.",
+answers:[
+"Đôi khi làm việc tốt vẫn bị hiểu lầm hoặc gặp phiền phức.",
+"Không nên giúp người khác.",
+"Làm việc thiện sẽ gặp xui xẻo."
+],
+correct:0,
+explain:"Phản ánh nghịch lý trong cuộc sống, không phủ nhận giá trị của việc làm thiện."
+},
+
+{
+type:"meaning",
+question:"Khẩu Phật tâm xà.",
+answers:[
+"Bề ngoài nhân từ nhưng trong lòng độc ác.",
+"Người theo đạo Phật đều hiền.",
+"Người nói ít thường tốt."
+],
+correct:0,
+explain:"Phê phán những người giả nhân giả nghĩa."
+},
+  {
+type:"meaning",
 question:"Khéo ăn thì no, khéo co thì ấm.",
 answers:[
 "Biết ứng xử và chi tiêu hợp lý thì cuộc sống sẽ ổn.",
