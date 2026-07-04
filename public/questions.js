@@ -1,6 +1,725 @@
 const questions = [
 {
 type:"meaning",
+question:"Đường dài mới biết ngựa hay.",
+answers:[
+"Ngựa chạy đường dài sẽ khỏe hơn.",
+"Qua thử thách lâu dài mới biết năng lực thật của một người.",
+"Muốn chọn ngựa phải cho chạy xa."
+],
+correct:1,
+explain:"Chỉ khi trải qua thời gian và thử thách mới đánh giá đúng con người."
+},
+
+{
+type:"meaning",
+question:"Có tật thì giật mình.",
+answers:[
+"Người có lỗi thường lo sợ khi bị nhắc đến.",
+"Ai cũng dễ giật mình.",
+"Người mắc bệnh thường yếu tim."
+],
+correct:0,
+explain:"Người làm điều sai thường tự chột dạ."
+},
+
+{
+type:"meaning",
+question:"Khôn ngoan chẳng lại thật thà.",
+answers:[
+"Sự thật thà nhiều khi còn đáng quý hơn sự khôn lỏi.",
+"Người thật thà luôn giàu có.",
+"Người khôn không cần học."
+],
+correct:0,
+explain:"Đề cao sự trung thực trong đối nhân xử thế."
+},
+
+{
+type:"meaning",
+question:"Một lần sa chân, vạn lần hối hận.",
+answers:[
+"Một sai lầm có thể để lại hậu quả lâu dài.",
+"Đi đường phải cẩn thận.",
+"Ai cũng từng vấp ngã."
+],
+correct:0,
+explain:"Khuyên con người suy nghĩ kỹ trước khi hành động."
+},
+
+{
+type:"meaning",
+question:"Có vay có trả mới thỏa lòng nhau.",
+answers:[
+"Mọi khoản vay đều phải trả đúng hạn.",
+"Quan hệ bền vững cần sự sòng phẳng và tôn trọng.",
+"Không nên cho người khác vay tiền."
+],
+correct:1,
+explain:"Đề cao sự công bằng và giữ chữ tín."
+},
+
+{
+type:"meaning",
+question:"Khôn chẳng qua lẽ, khỏe chẳng qua lời.",
+answers:[
+"Sức mạnh và sự khôn ngoan đều cần đi cùng cách ứng xử đúng đắn.",
+"Người khỏe luôn thắng.",
+"Chỉ cần nói hay là đủ."
+],
+correct:0,
+explain:"Khuyên sống có đạo lý và biết cách giao tiếp."
+},
+
+{
+type:"meaning",
+question:"Cây muốn lặng mà gió chẳng ngừng.",
+answers:[
+"Nhiều việc không diễn ra theo ý muốn của con người.",
+"Cây luôn bị gió thổi.",
+"Không nên trồng cây nơi nhiều gió."
+],
+correct:0,
+explain:"Cuộc sống có những biến cố ngoài ý muốn."
+},
+
+{
+type:"meaning",
+question:"Chim có tổ, người có tông.",
+answers:[
+"Con người cần nhớ cội nguồn của mình.",
+"Ai cũng cần xây nhà.",
+"Gia đình đông người sẽ hạnh phúc."
+],
+correct:0,
+explain:"Nhắc nhở con người nhớ về nguồn cội và gia đình."
+},
+
+{
+type:"meaning",
+question:"Thương nhau trái ấu cũng tròn, ghét nhau bồ hòn cũng méo.",
+answers:[
+"Tình cảm ảnh hưởng đến cách con người nhìn nhận nhau.",
+"Quả ấu rất tròn.",
+"Bồ hòn có nhiều hình dạng."
+],
+correct:0,
+explain:"Yêu ghét thường khiến con người đánh giá thiếu khách quan."
+},
+
+{
+type:"meaning",
+question:"Nói lời phải giữ lấy lời.",
+answers:[
+"Đã hứa thì phải cố gắng thực hiện.",
+"Không nên hứa với ai.",
+"Nói ít sẽ tốt hơn."
+],
+correct:0,
+explain:"Khuyên giữ chữ tín trong lời nói."
+},
+
+{
+type:"meaning",
+question:"Đói cho sạch, rách cho thơm.",
+answers:[
+"Dù nghèo khó vẫn phải sống ngay thẳng.",
+"Quần áo sạch là đủ.",
+"Không nên mặc quần áo cũ."
+],
+correct:0,
+explain:"Đề cao lòng tự trọng và đạo đức."
+},
+
+{
+type:"meaning",
+question:"Một vốn bốn lời.",
+answers:[
+"Thu được lợi nhuận lớn từ số vốn bỏ ra.",
+"Chỉ nên đầu tư một lần.",
+"Càng vay nhiều càng lời."
+],
+correct:0,
+explain:"Chỉ việc kinh doanh hoặc đầu tư có lợi nhuận cao."
+},
+
+{
+type:"meaning",
+question:"Đi cho lắm cũng chỉ một đường, ăn cho lắm cũng chỉ đầy bụng.",
+answers:[
+"Con người nên biết điểm dừng và sống điều độ.",
+"Không nên đi xa.",
+"Không nên ăn nhiều cơm."
+],
+correct:0,
+explain:"Khuyên tránh tham lam và sống chừng mực."
+},
+
+{
+type:"meaning",
+question:"Lửa gần rơm lâu ngày cũng bén.",
+answers:[
+"Sống gần nhau lâu dễ nảy sinh tình cảm hoặc bị ảnh hưởng.",
+"Rơm rất dễ cháy.",
+"Không nên để rơm gần lửa."
+],
+correct:0,
+explain:"Chỉ sự tác động lâu dài giữa những người gần gũi."
+},
+
+{
+type:"meaning",
+question:"Của đi thay người.",
+answers:[
+"Tiền bạc mất đi còn hơn con người gặp nạn.",
+"Không nên giữ của cải.",
+"Người giàu thường gặp may."
+],
+correct:0,
+explain:"Đề cao giá trị của con người hơn tài sản."
+},
+
+{
+type:"meaning",
+question:"Sẩy đàn tan nghé.",
+answers:[
+"Mất sự đoàn kết sẽ dẫn đến tan rã.",
+"Nuôi trâu rất khó.",
+"Không nên thả nghé."
+],
+correct:0,
+explain:"Nhấn mạnh hậu quả của việc mất tổ chức hoặc chia rẽ."
+},
+
+{
+type:"meaning",
+question:"Khéo ăn thì no, khéo co thì ấm.",
+answers:[
+"Biết thu vén và tính toán thì cuộc sống sẽ ổn định.",
+"Người ăn khỏe sẽ no lâu.",
+"Mặc nhiều áo sẽ ấm."
+],
+correct:0,
+explain:"Khuyên sống biết liệu cơm gắp mắm và ứng xử khéo léo."
+},
+
+{
+type:"meaning",
+question:"Sông sâu còn có kẻ dò, lòng người nham hiểm ai đo cho cùng.",
+answers:[
+"Con người khó đoán hơn thiên nhiên.",
+"Không nên đi sông.",
+"Sông sâu luôn nguy hiểm."
+],
+correct:0,
+explain:"Nhắc nhở phải thận trọng trong việc nhìn người."
+},
+
+{
+type:"meaning",
+question:"Lời chào cao hơn mâm cỗ.",
+answers:[
+"Sự lễ phép đôi khi còn quý hơn vật chất.",
+"Tiệc lớn luôn quan trọng hơn.",
+"Nên mời khách ăn nhiều."
+],
+correct:0,
+explain:"Đề cao phép lịch sự và cách ứng xử."
+},
+
+{
+type:"meaning",
+question:"Biết thì thưa thốt, không biết thì dựa cột mà nghe.",
+answers:[
+"Không biết thì nên lắng nghe và học hỏi.",
+"Không nên phát biểu ý kiến.",
+"Người ít nói sẽ thông minh hơn."
+],
+correct:0,
+explain:"Khuyên khi chưa biết thì nên khiêm tốn học hỏi thay vì nói bừa."
+},
+  {
+type:"meaning",
+question:"Có thực mới vực được đạo.",
+answers:[
+"Con người cần bảo đảm cuộc sống trước khi theo đuổi những giá trị tinh thần.",
+"Chỉ người giàu mới sống đạo đức.",
+"Muốn khỏe thì phải ăn nhiều."
+],
+correct:0,
+explain:"Nhấn mạnh tầm quan trọng của nhu cầu vật chất cơ bản đối với đời sống tinh thần."
+},
+
+{
+type:"meaning",
+question:"Tiền nào của nấy.",
+answers:[
+"Đồ đắt luôn là tốt nhất.",
+"Chất lượng thường tương xứng với giá trị.",
+"Không nên mặc cả."
+],
+correct:1,
+explain:"Giá cả thường phản ánh phần nào chất lượng của sản phẩm hoặc dịch vụ."
+},
+
+{
+type:"meaning",
+question:"Tiền mất tật mang.",
+answers:[
+"Bị thiệt hại cả tiền bạc lẫn sức khỏe hoặc lợi ích.",
+"Tiền luôn gây rắc rối.",
+"Mất tiền sẽ sinh bệnh."
+],
+correct:0,
+explain:"Chỉ việc chịu thiệt hại kép sau một quyết định sai lầm."
+},
+
+{
+type:"meaning",
+question:"Đồng tiền đi trước là đồng tiền khôn.",
+answers:[
+"Biết chi tiêu sớm sẽ giàu.",
+"Tiền bạc có thể giúp công việc thuận lợi trong một số hoàn cảnh.",
+"Tiền luôn giải quyết được mọi việc."
+],
+correct:1,
+explain:"Phản ánh kinh nghiệm dân gian, đôi khi mang hàm ý phê phán việc dùng tiền để mở đường."
+},
+
+{
+type:"meaning",
+question:"Khôn ngoan chẳng qua thật thà.",
+answers:[
+"Sự chân thành và trung thực là biểu hiện của sự khôn ngoan.",
+"Người thật thà luôn thành công.",
+"Không cần học hỏi vẫn sẽ khôn."
+],
+correct:0,
+explain:"Đề cao giá trị của sự chân thật trong đối nhân xử thế."
+},
+
+{
+type:"meaning",
+question:"Làm trai cho đáng nên trai.",
+answers:[
+"Đàn ông phải giàu có.",
+"Con người nên sống có chí hướng và trách nhiệm.",
+"Ai cũng phải lập công lớn."
+],
+correct:1,
+explain:"Khuyên mỗi người sống có lý tưởng và trách nhiệm với bản thân, xã hội."
+},
+
+{
+type:"meaning",
+question:"Có qua có lại mới toại lòng nhau.",
+answers:[
+"Quan hệ bền vững cần sự tôn trọng và đáp lại từ cả hai phía.",
+"Luôn phải trả ơn ngay lập tức.",
+"Không nên nhận quà của người khác."
+],
+correct:0,
+explain:"Đề cao sự cân bằng và chân thành trong các mối quan hệ."
+},
+
+{
+type:"meaning",
+question:"Khéo ăn thì no, khéo nói thì sang.",
+answers:[
+"Biết giao tiếp khéo léo sẽ được người khác quý trọng.",
+"Người nói nhiều sẽ thành công.",
+"Người giàu luôn nói hay."
+],
+correct:0,
+explain:"Khuyên rèn luyện cách ứng xử và giao tiếp."
+},
+
+{
+type:"meaning",
+question:"Im lặng là vàng.",
+answers:[
+"Luôn luôn không nên nói.",
+"Biết im lặng đúng lúc là điều quý giá.",
+"Người ít nói sẽ giàu."
+],
+correct:1,
+explain:"Khuyên con người biết kiềm chế lời nói khi cần thiết."
+},
+
+{
+type:"meaning",
+question:"Lời nói gói vàng.",
+answers:[
+"Lời nói đúng mực rất quý giá.",
+"Vàng được gói trong giấy.",
+"Nói ít sẽ giàu."
+],
+correct:0,
+explain:"Đề cao giá trị của lời nói lịch sự và có ý nghĩa."
+},
+
+{
+type:"meaning",
+question:"Học thầy không tày học bạn.",
+answers:[
+"Bạn bè luôn giỏi hơn thầy.",
+"Việc học hỏi từ bạn bè cũng rất quan trọng.",
+"Không cần đến trường."
+],
+correct:1,
+explain:"Nhấn mạnh giá trị của việc học hỏi lẫn nhau."
+},
+
+{
+type:"meaning",
+question:"Đi cho biết đó biết đây, ở nhà với mẹ biết ngày nào khôn.",
+answers:[
+"Nên trải nghiệm để mở mang hiểu biết.",
+"Đi du lịch sẽ giàu.",
+"Không nên sống cùng cha mẹ."
+],
+correct:0,
+explain:"Khuyến khích con người học hỏi từ cuộc sống thực tế."
+},
+
+{
+type:"meaning",
+question:"Sông có khúc, người có lúc.",
+answers:[
+"Ai cũng có lúc thăng trầm trong cuộc sống.",
+"Sông luôn quanh co.",
+"Con người nên sống gần sông."
+],
+correct:0,
+explain:"Cuộc sống luôn có những giai đoạn khác nhau, không ai mãi thuận lợi hay khó khăn."
+},
+
+{
+type:"meaning",
+question:"Ba chìm bảy nổi chín lênh đênh.",
+answers:[
+"Chỉ cuộc sống nhiều gian truân, vất vả.",
+"Đi biển rất nguy hiểm.",
+"Con số ba và bảy rất may mắn."
+],
+correct:0,
+explain:"Miêu tả cuộc đời nhiều biến động và thử thách."
+},
+
+{
+type:"meaning",
+question:"Thua keo này, bày keo khác.",
+answers:[
+"Thất bại thì nên bỏ cuộc.",
+"Sau thất bại hãy tiếp tục cố gắng.",
+"Không nên thi đấu nhiều lần."
+],
+correct:1,
+explain:"Khích lệ tinh thần không nản chí."
+},
+
+{
+type:"meaning",
+question:"Có làm thì mới có ăn.",
+answers:[
+"Muốn có thành quả phải lao động.",
+"Chỉ cần chăm chỉ sẽ giàu.",
+"Ai cũng phải làm nông."
+],
+correct:0,
+explain:"Đề cao giá trị của lao động."
+},
+
+{
+type:"meaning",
+question:"Lao động là vinh quang.",
+answers:[
+"Người lao động luôn giàu có.",
+"Lao động chân chính là điều đáng trân trọng.",
+"Chỉ lao động tay chân mới đáng quý."
+],
+correct:1,
+explain:"Khẳng định giá trị của lao động trong cuộc sống."
+},
+
+{
+type:"meaning",
+question:"Chớ nên thấy sóng cả mà rã tay chèo.",
+answers:[
+"Gặp khó khăn thì nên dừng lại.",
+"Không nên chèo thuyền khi có bão.",
+"Đừng vì khó khăn mà mất ý chí."
+],
+correct:2,
+explain:"Khuyên con người giữ vững quyết tâm trước thử thách."
+},
+
+{
+type:"meaning",
+question:"Muốn ăn phải lăn vào bếp.",
+answers:[
+"Muốn có kết quả phải chủ động hành động.",
+"Ai cũng nên biết nấu ăn.",
+"Không nên ăn ngoài."
+],
+correct:0,
+explain:"Không có thành quả nào đến nếu không chịu bắt tay vào làm."
+},
+
+{
+type:"meaning",
+question:"Thắng không kiêu, bại không nản.",
+answers:[
+"Khi thành công hay thất bại đều cần giữ thái độ đúng mực.",
+"Không nên ăn mừng chiến thắng.",
+"Người thất bại không nên cố gắng nữa."
+],
+correct:0,
+explain:"Khuyên con người khiêm tốn lúc thành công và kiên cường khi thất bại."
+},
+  
+  {
+type:"meaning",
+question:"Bầu ơi thương lấy bí cùng, tuy rằng khác giống nhưng chung một giàn.",
+answers:[
+"Con người nên yêu thương, đùm bọc lẫn nhau.",
+"Chỉ nên trồng bầu và bí cùng nhau.",
+"Người cùng quê mới nên giúp nhau."
+],
+correct:0,
+explain:"Khuyên con người sống đoàn kết, yêu thương và giúp đỡ nhau."
+},
+
+{
+type:"meaning",
+question:"Nhiễu điều phủ lấy giá gương, người trong một nước phải thương nhau cùng.",
+answers:[
+"Người cùng một dân tộc cần đoàn kết, yêu thương nhau.",
+"Phải giữ gìn đồ vật cẩn thận.",
+"Nên giúp đỡ người trong gia đình trước."
+],
+correct:0,
+explain:"Đề cao tinh thần đoàn kết dân tộc."
+},
+
+{
+type:"meaning",
+question:"Anh em như thể tay chân.",
+answers:[
+"Anh em phải yêu thương, gắn bó với nhau.",
+"Anh em nên sống chung một nhà.",
+"Anh em phải luôn làm việc cùng nhau."
+],
+correct:0,
+explain:"Khuyên anh em trong gia đình phải đoàn kết, đùm bọc."
+},
+
+{
+type:"meaning",
+question:"Công cha như núi Thái Sơn, nghĩa mẹ như nước trong nguồn chảy ra.",
+answers:[
+"Cha mẹ đều phải lao động vất vả.",
+"Công lao cha mẹ vô cùng to lớn.",
+"Cha mẹ luôn sống lâu hơn con."
+],
+correct:1,
+explain:"Nhắc nhở con cái ghi nhớ công ơn sinh thành dưỡng dục."
+},
+
+{
+type:"meaning",
+question:"Ai ơi giữ chí cho bền, dù ai xoay hướng đổi nền mặc ai.",
+answers:[
+"Phải biết thích nghi với mọi người.",
+"Kiên định với lý tưởng và mục tiêu đúng đắn.",
+"Không nên thay đổi công việc."
+],
+correct:1,
+explain:"Khuyên con người giữ vững lập trường và ý chí."
+},
+
+{
+type:"meaning",
+question:"Khôn ngoan chẳng lọ thật thà, lường thưng tráo đấu chẳng qua đong đầy.",
+answers:[
+"Sự thật thà quý hơn sự gian dối khôn lỏi.",
+"Người thật thà luôn giàu.",
+"Gian lận sẽ không ai phát hiện."
+],
+correct:0,
+explain:"Đề cao sự trung thực trong cuộc sống."
+},
+
+{
+type:"meaning",
+question:"Đói lòng ăn nửa trái sim, uống lưng bát nước đi tìm người thương.",
+answers:[
+"Tình cảm chân thành vượt lên khó khăn vật chất.",
+"Quả sim rất ngon.",
+"Đi đường nên mang theo nước."
+],
+correct:0,
+explain:"Ca ngợi sự chân thành trong tình yêu."
+},
+
+{
+type:"meaning",
+question:"Yêu nhau cau sáu bổ ba, ghét nhau cau sáu bổ ra làm mười.",
+answers:[
+"Tình cảm làm thay đổi cách con người đối xử với nhau.",
+"Cau càng nhỏ càng ngon.",
+"Không nên chia của cải."
+],
+correct:0,
+explain:"Chỉ sự thiên vị do yêu ghét."
+},
+
+{
+type:"meaning",
+question:"Khôn ngoan đối đáp người ngoài, gà cùng một mẹ chớ hoài đá nhau.",
+answers:[
+"Anh em trong nhà phải đoàn kết.",
+"Không nên nuôi gà.",
+"Không nên tranh luận với người ngoài."
+],
+correct:0,
+explain:"Khuyên người trong gia đình yêu thương và nhường nhịn nhau."
+},
+
+{
+type:"meaning",
+question:"Thương người như thể thương thân.",
+answers:[
+"Hãy yêu thương người khác như chính bản thân mình.",
+"Chỉ nên thương người thân.",
+"Ai cũng phải tự lo cho mình."
+],
+correct:0,
+explain:"Đề cao lòng nhân ái."
+},
+
+{
+type:"meaning",
+question:"Một con sâu làm rầu nồi canh.",
+answers:[
+"Một người xấu có thể ảnh hưởng đến cả tập thể.",
+"Không nên ăn canh có sâu.",
+"Canh phải nấu thật kỹ."
+],
+correct:0,
+explain:"Nhắc nhở mỗi cá nhân phải có trách nhiệm với tập thể."
+},
+
+{
+type:"meaning",
+question:"Con sâu bỏ rầu nồi canh.",
+answers:[
+"Một cá nhân hư hỏng có thể làm ảnh hưởng cả tập thể.",
+"Canh rất dễ bị hỏng.",
+"Không nên nuôi sâu."
+],
+correct:0,
+explain:"Ý nghĩa tương tự 'Một con sâu làm rầu nồi canh'."
+},
+
+{
+type:"meaning",
+question:"Thùng rỗng kêu to.",
+answers:[
+"Người ít hiểu biết thường hay khoe khoang.",
+"Thùng không có nước sẽ nhẹ hơn.",
+"Âm thanh lớn luôn đáng sợ."
+],
+correct:0,
+explain:"Phê phán những người thích khoác lác."
+},
+
+{
+type:"meaning",
+question:"Xấu đều hơn tốt lỏi.",
+answers:[
+"Ổn định còn hơn chỉ tốt trong chốc lát.",
+"Xấu luôn tốt hơn đẹp.",
+"Không cần cố gắng quá."
+],
+correct:0,
+explain:"Khuyên duy trì sự đều đặn, bền vững."
+},
+
+{
+type:"meaning",
+question:"Khôn đâu tới trẻ, khỏe đâu tới già.",
+answers:[
+"Mỗi độ tuổi đều có giới hạn của mình.",
+"Người trẻ luôn đúng.",
+"Người già không nên làm việc."
+],
+correct:0,
+explain:"Nhắc nhở quy luật tự nhiên của cuộc sống."
+},
+
+{
+type:"meaning",
+question:"Một chữ tín, vạn niềm tin.",
+answers:[
+"Uy tín tạo nên sự tin tưởng lâu dài.",
+"Chỉ cần hứa là đủ.",
+"Người nổi tiếng luôn đáng tin."
+],
+correct:0,
+explain:"Đề cao chữ tín trong cuộc sống."
+},
+
+{
+type:"meaning",
+question:"Cá lớn nuốt cá bé.",
+answers:[
+"Người mạnh thường lấn át người yếu.",
+"Cá lớn chỉ ăn cá nhỏ.",
+"Không nên nuôi cá lớn."
+],
+correct:0,
+explain:"Phản ánh quy luật cạnh tranh trong cuộc sống."
+},
+
+{
+type:"meaning",
+question:"Ăn vóc học hay.",
+answers:[
+"Muốn học tốt cần chăm lo cả sức khỏe và việc học.",
+"Ăn nhiều sẽ học giỏi.",
+"Chỉ cần học là đủ."
+],
+correct:0,
+explain:"Khuyên con người vừa chăm sóc bản thân vừa chăm học."
+},
+
+{
+type:"meaning",
+question:"Khéo ăn thì no, khéo nói thì được người ta nghe.",
+answers:[
+"Lời nói khéo léo giúp tạo thiện cảm và đạt hiệu quả giao tiếp.",
+"Người nói nhiều luôn đúng.",
+"Chỉ cần ăn uống đầy đủ."
+],
+correct:0,
+explain:"Đề cao nghệ thuật giao tiếp."
+},
+
+{
+type:"meaning",
+question:"Người thanh tiếng nói cũng thanh, chuông kêu khẽ đánh bên thành cũng kêu.",
+answers:[
+"Phẩm chất bên trong thể hiện qua lời nói và cách ứng xử.",
+"Người nói nhỏ sẽ được yêu quý.",
+"Chuông càng lớn càng hay."
+],
+correct:0,
+explain:"Ca ngợi người có nhân cách tốt thì lời nói cũng nhẹ nhàng, dễ mến."
+},
+  
+  {
+type:"meaning",
 question:"Một điều nhịn, chín điều lành.",
 answers:[
 "Nhẫn nhịn đúng lúc sẽ giúp tránh nhiều điều xấu.",
