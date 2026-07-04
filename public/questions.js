@@ -1,6 +1,245 @@
 const questions = [
 {
 type:"meaning",
+question:"Ở bầu thì tròn, ở ống thì dài.",
+answers:[
+"Con người dễ chịu ảnh hưởng bởi môi trường sống.",
+"Quả bầu có nhiều hình dạng.",
+"Muốn thành công phải biết thay đổi nơi ở."
+],
+correct:0,
+explain:"Môi trường sống và hoàn cảnh có ảnh hưởng lớn đến tính cách, hành vi của con người."
+},
+
+{
+type:"meaning",
+question:"Học thầy chẳng tày học bạn.",
+answers:[
+"Bạn bè luôn giỏi hơn thầy.",
+"Việc học hỏi từ bạn bè cũng rất quan trọng.",
+"Không cần đến trường vẫn học được."
+],
+correct:1,
+explain:"Ngoài thầy cô, bạn bè cũng là nguồn học hỏi quý giá."
+},
+
+{
+type:"meaning",
+question:"Đi với Phật mặc áo cà sa, đi với ma mặc áo giấy.",
+answers:[
+"Cần biết ứng xử linh hoạt theo hoàn cảnh.",
+"Không nên tin người lạ.",
+"Luôn phải thay quần áo phù hợp."
+],
+correct:0,
+explain:"Khuyên con người biết thích nghi và cư xử phù hợp với từng môi trường."
+},
+
+{
+type:"meaning",
+question:"Khéo ăn thì no, khéo nói thì được việc.",
+answers:[
+"Người ăn khỏe sẽ thành công.",
+"Biết giao tiếp khéo léo sẽ giúp công việc thuận lợi.",
+"Muốn thành công phải nói nhiều."
+],
+correct:1,
+explain:"Lời nói đúng mực và khéo léo giúp giải quyết công việc hiệu quả."
+},
+
+{
+type:"meaning",
+question:"Một giọt đào hơn ao nước lã.",
+answers:[
+"Tình ruột thịt quý hơn những mối quan hệ xa lạ.",
+"Máu quý hơn nước.",
+"Không nên uống nước ao."
+],
+correct:0,
+explain:"Đề cao tình cảm huyết thống và gia đình."
+},
+
+{
+type:"meaning",
+question:"Ăn xem nồi, ngồi xem hướng.",
+answers:[
+"Khi ăn phải nhìn nồi cơm.",
+"Cần cư xử tinh tế, biết ý trong mọi hoàn cảnh.",
+"Không nên ngồi quay lưng ra cửa."
+],
+correct:1,
+explain:"Khuyên con người biết quan sát và ứng xử lịch sự."
+},
+
+{
+type:"meaning",
+question:"Có qua có lại mới toại lòng nhau.",
+answers:[
+"Các mối quan hệ cần sự chân thành từ cả hai phía.",
+"Không nên nhận quà của người khác.",
+"Phải trả ơn ngay lập tức."
+],
+correct:0,
+explain:"Đề cao sự tôn trọng và biết đáp lại tình cảm của người khác."
+},
+
+{
+type:"meaning",
+question:"Khéo ăn thì no, khéo co thì khỏi rét.",
+answers:[
+"Biết thu vén thì cuộc sống sẽ ổn định hơn.",
+"Mặc nhiều áo sẽ không lạnh.",
+"Người khéo luôn giàu."
+],
+correct:0,
+explain:"Khuyên biết tính toán và tiết kiệm trong cuộc sống."
+},
+
+{
+type:"meaning",
+question:"Một lời nói dối, sám hối bảy ngày.",
+answers:[
+"Nói dối thường để lại hậu quả và mất lòng tin.",
+"Chỉ cần xin lỗi là đủ.",
+"Nói dối nhỏ thì không sao."
+],
+correct:0,
+explain:"Khuyên con người sống trung thực và giữ chữ tín."
+},
+
+{
+type:"meaning",
+question:"Thương người như thể thương thân.",
+answers:[
+"Hãy đối xử với người khác bằng sự đồng cảm như với chính mình.",
+"Chỉ nên thương người thân.",
+"Người tốt luôn giúp tất cả mọi người."
+],
+correct:0,
+explain:"Đề cao lòng nhân ái và sự sẻ chia."
+},
+
+{
+type:"meaning",
+question:"Có cứng mới đứng đầu gió.",
+answers:[
+"Người có bản lĩnh mới vượt qua được thử thách.",
+"Cây cứng sẽ không gãy.",
+"Luôn phải mạnh mẽ với mọi người."
+],
+correct:0,
+explain:"Khuyên rèn luyện bản lĩnh để đối mặt với khó khăn."
+},
+
+{
+type:"meaning",
+question:"Đói ăn vụng, túng làm liều.",
+answers:[
+"Hoàn cảnh khó khăn có thể khiến con người dễ làm điều sai.",
+"Người nghèo đều xấu.",
+"Không nên để bụng đói."
+],
+correct:0,
+explain:"Phản ánh tâm lý con người khi rơi vào cảnh túng quẫn."
+},
+
+{
+type:"meaning",
+question:"Chớ đốt đuốc giữa ban ngày.",
+answers:[
+"Không nên làm những việc thừa thãi, vô ích.",
+"Ban ngày không được đốt lửa.",
+"Đốt đuốc rất nguy hiểm."
+],
+correct:0,
+explain:"Khuyên tránh lãng phí công sức vào việc không cần thiết."
+},
+
+{
+type:"meaning",
+question:"Có chí làm quan, có gan làm giàu.",
+answers:[
+"Muốn thành công cần có ý chí và dám hành động.",
+"Chỉ người gan dạ mới giàu.",
+"Ai cũng có thể làm quan."
+],
+correct:0,
+explain:"Khuyến khích con người nuôi dưỡng khát vọng và sự quyết đoán."
+},
+
+{
+type:"meaning",
+question:"Nhập gia tùy tục.",
+answers:[
+"Đến đâu cũng nên tôn trọng phong tục nơi đó.",
+"Không nên thay đổi bản thân.",
+"Chỉ nên sống ở quê hương."
+],
+correct:0,
+explain:"Khuyên con người biết tôn trọng văn hóa và quy tắc của mỗi nơi."
+},
+
+{
+type:"meaning",
+question:"Có phúc cùng hưởng, có họa cùng chia.",
+answers:[
+"Bạn bè thật sự sẽ đồng hành cả lúc vui lẫn lúc khó khăn.",
+"Người giàu nên giúp người nghèo.",
+"Gia đình luôn quan trọng nhất."
+],
+correct:0,
+explain:"Đề cao tinh thần sẻ chia và gắn bó."
+},
+
+{
+type:"meaning",
+question:"Một chữ nhịn là chín chữ lành.",
+answers:[
+"Biết nhẫn nhịn đúng lúc sẽ tránh được nhiều điều không hay.",
+"Không bao giờ được tranh luận.",
+"Nhịn ăn sẽ khỏe mạnh."
+],
+correct:0,
+explain:"Khuyên con người kiềm chế cảm xúc để giữ hòa khí."
+},
+
+{
+type:"meaning",
+question:"Làm việc hôm nay chớ để ngày mai.",
+answers:[
+"Nên hoàn thành công việc đúng lúc, tránh trì hoãn.",
+"Ngày mai không nên làm việc.",
+"Phải làm việc cả ngày."
+],
+correct:0,
+explain:"Khuyên con người bỏ thói quen trì hoãn."
+},
+
+{
+type:"meaning",
+question:"Tốt gỗ hơn tốt nước sơn.",
+answers:[
+"Giá trị bên trong quan trọng hơn vẻ bề ngoài.",
+"Gỗ quý luôn đẹp hơn.",
+"Sơn đẹp sẽ bền hơn."
+],
+correct:0,
+explain:"Đề cao phẩm chất và năng lực hơn hình thức."
+},
+
+{
+type:"meaning",
+question:"Muốn sang thì bắc cầu kiều, muốn con hay chữ thì yêu lấy thầy.",
+answers:[
+"Muốn học giỏi phải chăm chỉ đọc sách.",
+"Tôn trọng và biết ơn người thầy sẽ giúp việc học tiến bộ.",
+"Muốn thành công phải sống ở thành phố."
+],
+correct:1,
+explain:"Đề cao truyền thống tôn sư trọng đạo và vai trò của người thầy."
+},
+  {
+type:"meaning",
 question:"Đường dài mới biết ngựa hay.",
 answers:[
 "Ngựa chạy đường dài sẽ khỏe hơn.",
