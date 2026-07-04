@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Đố vui Ca dao tục ngữ</title>
+
+<style>
+
+*{
+box-sizing:border-box;
+}
+
+body{
+
+margin:0;
+
+font-family:Arial;
+
+background:linear-gradient(135deg,#f4d6ff,#d6e6ff);
+
+min-height:100vh;
+
+text-align:center;
+
+}
+
+.top{
+
+padding:20px;
+
+}
+
+.home{
+
+background:#8b5cf6;
+
+color:white;
+
+padding:12px 26px;
+
+border:none;
+
+border-radius:30px;
+
+font-size:18px;
+
+cursor:pointer;
+
+}
+
+.wrapper{
+
+display:flex;
+
+justify-content:center;
+
+margin-top:10px;
+
+}
+
+.container{
+
+position:relative;
+
+width:700px;
+
+background:white;
+
+padding:35px;
+
+border-radius:25px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+}
+
+h1{
+
+margin-top:0;
+
+color:#7c3aed;
+
+}
+
+.question{
+
+font-size:28px;
+
+font-weight:bold;
+
+line-height:1.5;
+
+margin:35px 0;
+
+}
+
+.answers{
+
+display:flex;
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+.answer{
+
+padding:18px;
+
+border:none;
+
+border-radius:16px;
+
+font-size:20px;
+
+cursor:pointer;
+
+background:#f3f4f6;
+
+transition:.2s;
+
+}
+
+.answer:hover{
+
+background:#ddd6fe;
+
+}
+
+.correct{
+
+background:#4ade80 !important;
+
+color:white;
+
+}
+
+.wrong{
+
+background:#fb7185 !important;
+
+color:white;
+
+}
+
+.explain{
+
+margin-top:30px;
+
+font-size:18px;
+
+line-height:1.7;
+
+display:none;
+
+padding:20px;
+
+border-radius:15px;
+
+background:#faf5ff;
+
+}
+
+.next{
+
+margin-top:25px;
+
+display:none;
+
+padding:14px 30px;
+
+font-size:18px;
+
+background:#8b5cf6;
+
+color:white;
+
+border:none;
+
+border-radius:30px;
+
+cursor:pointer;
+
+}
+
+.chibi{
+
+position:absolute;
+
+top:30px;
+
+width:170px;
+
+}
+
+.left{
+
+right:100%;
+
+margin-right:-45px;
+
+}
+
+.right{
+
+left:100%;
+
+margin-left:-45px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="top">
+
+<button class="home"
+
+onclick="location.href='https://homepage-gray-omega.vercel.app/'">
+
+🏠 Trang chủ
+
+</button>
+
+</div>
+
+<div class="wrapper">
+
+<div class="container">
+
+<img src="coha-left.png" class="chibi left">
+
+<img src="coha-right.png" class="chibi right">
+
+<h1>📖 Đố vui Ca dao tục ngữ</h1>
+
+<div class="question" id="question"></div>
+
+<div class="answers" id="answers"></div>
+
+<div class="explain" id="explain"></div>
+
+<button class="next" id="next">
+
+➡️ Câu tiếp theo
+
+</button>
+
+</div>
+
+</div>
+
+<script type="module">
+
+import questions from "./questions.js";
+
+let current;
+
+function shuffle(arr){
+
+return [...arr].sort(()=>Math.random()-0.5);
+
+}
+
+function loadQuestion(){
+
+document.getElementById("explain").style.display="none";
+
+document.getElementById("next").style.display="none";
+
+current=questions[Math.floor(Math.random()*questions.length)];
+
+document.getElementById("question").innerHTML=current.question;
+
+const answers=document.getElementById("answers");
+
+answers.innerHTML="";
+
+let list=current.answers.map((a,i)=>({
+
+text:a,
+
+index:i
+
+}));
+
+list=shuffle(list);
+
+list.forEach(item=>{
+
+const btn=document.createElement("button");
+
+btn.className="answer";
+
+btn.innerHTML=item.text;
+
+btn.onclick=()=>check(btn,item.index);
+
+answers.appendChild(btn);
+
+});
+
+}
+
+function check(button,index){
+
+const buttons=document.querySelectorAll(".answer");
+
+buttons.forEach(b=>b.disabled=true);
+
+if(index===current.correct){
+
+button.classList.add("correct");
+
+}else{
+
+button.classList.add("wrong");
+
+buttons.forEach(btn=>{
+
+if(btn.innerHTML===current.answers[current.correct]){
+
+btn.classList.add("correct");
+
+}
+
+});
+
+}
+
+const explain=document.getElementById("explain");
+
+explain.style.display="block";
+
+explain.innerHTML=
+
+"<b>💡 Ý nghĩa:</b><br><br>"+current.explain;
+
+document.getElementById("next").style.display="inline-block";
+
+}
+
+document.getElementById("next").onclick=loadQuestion;
+
+loadQuestion();
+
+</script>
+
+</body>
+
+</html>
