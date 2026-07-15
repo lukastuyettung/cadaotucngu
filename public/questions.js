@@ -1,5 +1,483 @@
 const questions = [
 {
+type:"reverse",
+question:"Câu tục ngữ nào khuyên con người phải biết ơn những người đã giúp đỡ mình?",
+answers:[
+"Uống nước nhớ nguồn.",
+"Có chí thì nên.",
+"Gần mực thì đen, gần đèn thì sáng."
+],
+correct:0,
+explain:"'Uống nước nhớ nguồn' nhắc nhở con người luôn biết ơn cội nguồn và người đi trước."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào đề cao sức mạnh của sự đoàn kết?",
+answers:[
+"Một cây làm chẳng nên non, ba cây chụm lại nên hòn núi cao.",
+"Đói cho sạch, rách cho thơm.",
+"Có bệnh thì vái tứ phương."
+],
+correct:0,
+explain:"Đoàn kết giúp con người tạo nên sức mạnh lớn hơn từng cá nhân."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào khuyên con người kiên trì theo đuổi mục tiêu?",
+answers:[
+"Có công mài sắt, có ngày nên kim.",
+"Tham thì thâm.",
+"Treo đầu dê, bán thịt chó."
+],
+correct:0,
+explain:"Kiên trì sẽ mang lại thành quả."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào nhắc nhở không nên đánh giá con người qua vẻ bề ngoài?",
+answers:[
+"Tốt gỗ hơn tốt nước sơn.",
+"Lạt mềm buộc chặt.",
+"Năng nhặt chặt bị."
+],
+correct:0,
+explain:"Phẩm chất và năng lực bên trong quan trọng hơn hình thức."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào nói về ảnh hưởng của môi trường sống đến con người?",
+answers:[
+"Gần mực thì đen, gần đèn thì sáng.",
+"Có thực mới vực được đạo.",
+"Tiền nào của nấy."
+],
+correct:0,
+explain:"Con người chịu ảnh hưởng từ môi trường và những người xung quanh."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào khuyên con người giữ phẩm chất ngay cả khi nghèo khó?",
+answers:[
+"Đói cho sạch, rách cho thơm.",
+"Có mới nới cũ.",
+"Khôn nhà dại chợ."
+],
+correct:0,
+explain:"Giữ lòng tự trọng và đạo đức trong mọi hoàn cảnh."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào phê phán sự tham lam?",
+answers:[
+"Tham thì thâm.",
+"Có chí thì nên.",
+"Đi một ngày đàng, học một sàng khôn."
+],
+correct:0,
+explain:"Lòng tham thường dẫn đến hậu quả."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào khuyên biết giúp đỡ người gặp khó khăn?",
+answers:[
+"Lá lành đùm lá rách.",
+"Khẩu Phật tâm xà.",
+"Thùng rỗng kêu to."
+],
+correct:0,
+explain:"Đề cao tinh thần tương thân tương ái."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào nói rằng trải nghiệm giúp con người trưởng thành?",
+answers:[
+"Đi một ngày đàng, học một sàng khôn.",
+"Có thực mới vực được đạo.",
+"Lời nói gói vàng."
+],
+correct:0,
+explain:"Đi nhiều, trải nghiệm nhiều sẽ học được nhiều điều."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào nhắc nhở phải giữ chữ tín?",
+answers:[
+"Một chữ tín hơn vạn chữ vàng.",
+"Khéo ăn thì no.",
+"Lửa thử vàng, gian nan thử sức."
+],
+correct:0,
+explain:"Uy tín quý hơn vật chất."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào phê phán người chỉ biết sửa sai sau khi hậu quả đã xảy ra?",
+answers:[
+"Mất bò mới lo làm chuồng.",
+"Khôn ba năm, dại một giờ.",
+"Thương người như thể thương thân."
+],
+correct:0,
+explain:"Khuyên phải biết phòng ngừa từ trước."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào nói rằng người làm điều xấu rồi sẽ gặp hậu quả?",
+answers:[
+"Gieo gió gặt bão.",
+"Đường dài mới biết ngựa hay.",
+"Tiên học lễ, hậu học văn."
+],
+correct:0,
+explain:"Mọi hành động xấu đều sẽ phải trả giá."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào nhắc nhở phải khiêm tốn học hỏi khi chưa biết?",
+answers:[
+"Biết thì thưa thốt, không biết thì dựa cột mà nghe.",
+"Ăn xem nồi, ngồi xem hướng.",
+"Khéo ăn thì no."
+],
+correct:0,
+explain:"Đừng phát biểu khi chưa hiểu rõ vấn đề."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào đề cao sự nhẫn nhịn để giữ hòa khí?",
+answers:[
+"Một điều nhịn, chín điều lành.",
+"Lắm thầy nhiều ma.",
+"Cá lớn nuốt cá bé."
+],
+correct:0,
+explain:"Biết nhường nhịn đúng lúc sẽ tránh được nhiều mâu thuẫn."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào khuyên phải tôn trọng phong tục của nơi mình đến?",
+answers:[
+"Nhập gia tùy tục.",
+"Thùng rỗng kêu to.",
+"Tiền mất tật mang."
+],
+correct:0,
+explain:"Đến đâu cũng nên tôn trọng văn hóa của nơi đó."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào nói rằng lời nói phải có căn cứ và bằng chứng?",
+answers:[
+"Nói có sách, mách có chứng.",
+"Lời nói gói vàng.",
+"Có qua có lại mới toại lòng nhau."
+],
+correct:0,
+explain:"Mọi nhận định nên dựa trên sự thật."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào phê phán việc quảng cáo một đằng nhưng làm một nẻo?",
+answers:[
+"Treo đầu dê, bán thịt chó.",
+"Khéo ăn thì no.",
+"Tiền nào của nấy."
+],
+correct:0,
+explain:"Chỉ hành vi gian dối trong kinh doanh và cuộc sống."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào nhắc nhở không nên khoe khoang khi bản thân không có thực lực?",
+answers:[
+"Thùng rỗng kêu to.",
+"Hữu xạ tự nhiên hương.",
+"Năng nhặt chặt bị."
+],
+correct:0,
+explain:"Phê phán người thích phô trương nhưng thiếu năng lực."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào đề cao việc tích góp từng chút một để tạo thành quả lớn?",
+answers:[
+"Năng nhặt chặt bị.",
+"Khôn sống mống chết.",
+"Tiên trách kỷ, hậu trách nhân."
+],
+correct:0,
+explain:"Kiên trì tích lũy sẽ mang lại kết quả."
+},
+
+{
+type:"reverse",
+question:"Câu tục ngữ nào khuyên mỗi người nên tự nhìn lại bản thân trước khi trách người khác?",
+answers:[
+"Tiên trách kỷ, hậu trách nhân.",
+"Cây ngay không sợ chết đứng.",
+"Ăn ngay nói thật."
+],
+correct:0,
+explain:"Trước khi trách người khác, hãy xem lại chính mình."
+},
+  {
+type:"complete",
+question:"Có công mài sắt...",
+answers:[
+"...có ngày nên kim.",
+"...thì nên việc lớn.",
+"...mới nên người."
+],
+correct:0,
+explain:"Kiên trì sẽ đạt được thành công."
+},
+
+{
+type:"complete",
+question:"Uống nước...",
+answers:[
+"...nhớ người đào giếng.",
+"...nhớ nguồn.",
+"...phải đun sôi."
+],
+correct:1,
+explain:"Khuyên con người biết nhớ ơn cội nguồn."
+},
+
+{
+type:"complete",
+question:"Ăn quả...",
+answers:[
+"...phải nhớ mùa xuân.",
+"...nhớ người gieo hạt.",
+"...nhớ kẻ trồng cây."
+],
+correct:2,
+explain:"Biết ơn người tạo nên thành quả mình đang hưởng."
+},
+
+{
+type:"complete",
+question:"Một cây làm chẳng nên non...",
+answers:[
+"...ba cây chụm lại nên hòn núi cao.",
+"...nên phải trồng thêm.",
+"...đừng nên chặt phá."
+],
+correct:0,
+explain:"Đề cao sức mạnh của sự đoàn kết."
+},
+
+{
+type:"complete",
+question:"Gần mực thì đen...",
+answers:[
+"...gần sách thì khôn.",
+"...gần đèn thì sáng.",
+"...gần bạn thì vui."
+],
+correct:1,
+explain:"Môi trường ảnh hưởng đến con người."
+},
+
+{
+type:"complete",
+question:"Đói cho sạch...",
+answers:[
+"...rách cho thơm.",
+"...ăn cho no.",
+"...mặc cho đẹp."
+],
+correct:0,
+explain:"Dù nghèo khó vẫn phải giữ phẩm chất."
+},
+
+{
+type:"complete",
+question:"Có chí...",
+answers:[
+"...ắt thành công.",
+"...thì nên.",
+"...mới nên người."
+],
+correct:1,
+explain:"Ý chí là nền tảng của thành công."
+},
+
+{
+type:"complete",
+question:"Lá lành...",
+answers:[
+"...đỡ lá khô.",
+"...đùm lá rách.",
+"...che lá non."
+],
+correct:1,
+explain:"Khuyên giúp đỡ người gặp khó khăn."
+},
+
+{
+type:"complete",
+question:"Một con ngựa đau...",
+answers:[
+"...ngựa khác kéo xe.",
+"...cả tàu bỏ cỏ.",
+"...cả đàn cùng chạy."
+],
+correct:1,
+explain:"Đề cao tinh thần đoàn kết."
+},
+
+{
+type:"complete",
+question:"Đi một ngày đàng...",
+answers:[
+"...học một sàng khôn.",
+"...biết thêm bạn mới.",
+"...mở mang tầm mắt."
+],
+correct:0,
+explain:"Trải nghiệm giúp tích lũy kiến thức."
+},
+
+{
+type:"complete",
+question:"Tiên học lễ...",
+answers:[
+"...rồi học nghề.",
+"...hậu học văn.",
+"...mới học làm."
+],
+correct:1,
+explain:"Đạo đức là nền tảng của việc học."
+},
+
+{
+type:"complete",
+question:"Tốt gỗ...",
+answers:[
+"...hơn tốt nước sơn.",
+"...mới làm nên nhà.",
+"...thì bền lâu."
+],
+correct:0,
+explain:"Giá trị bên trong quan trọng hơn vẻ ngoài."
+},
+
+{
+type:"complete",
+question:"Cây ngay...",
+answers:[
+"...không sợ chết đứng.",
+"...không sợ bão giông.",
+"...không ngại gió mưa."
+],
+correct:0,
+explain:"Người ngay thẳng không sợ điều tiếng."
+},
+
+{
+type:"complete",
+question:"Lửa thử vàng...",
+answers:[
+"...gian nan thử sức.",
+"...thử người ngay.",
+"...thử lòng người."
+],
+correct:0,
+explain:"Khó khăn là phép thử bản lĩnh."
+},
+
+{
+type:"complete",
+question:"Năng nhặt...",
+answers:[
+"...đầy kho.",
+"...chặt bị.",
+"...nên giàu."
+],
+correct:1,
+explain:"Tích góp từng chút sẽ thành nhiều."
+},
+
+{
+type:"complete",
+question:"Thuận vợ thuận chồng...",
+answers:[
+"...nhà cửa bình yên.",
+"...con cái nên người.",
+"...tát biển Đông cũng cạn."
+],
+correct:2,
+explain:"Đồng lòng thì việc khó cũng thành."
+},
+
+{
+type:"complete",
+question:"Thương người...",
+answers:[
+"...như thể thương thân.",
+"...là thương mình.",
+"...hơn thương của."
+],
+correct:0,
+explain:"Đề cao lòng nhân ái."
+},
+
+{
+type:"complete",
+question:"Biết thì thưa thốt...",
+answers:[
+"...đừng nói nhiều.",
+"...không biết thì dựa cột mà nghe.",
+"...phải nói cho rõ."
+],
+correct:1,
+explain:"Khuyên khiêm tốn học hỏi."
+},
+
+{
+type:"complete",
+question:"Nhập gia...",
+answers:[
+"...tùy chủ.",
+"...tùy tâm.",
+"...tùy tục."
+],
+correct:2,
+explain:"Đến đâu nên tôn trọng phong tục nơi đó."
+},
+
+{
+type:"complete",
+question:"Có thực...",
+answers:[
+"...mới vực được đạo.",
+"...mới nên việc.",
+"...mới có sức."
+],
+correct:0,
+explain:"Nhu cầu vật chất là nền tảng cho đời sống tinh thần."
+},
+  {
 type:"situation",
 question:"Một nhân viên luôn nhận lỗi về mình khi làm sai và chủ động sửa chữa. Câu tục ngữ nào phù hợp nhất?",
 answers:[
