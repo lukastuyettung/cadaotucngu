@@ -1,6 +1,1211 @@
 const questions = [
 
-  
+
+{
+type:"meaning",
+question:"Con giun xéo lắm cũng quằn.",
+answers:[
+"Người hiền lành bị dồn ép quá mức cũng sẽ phản kháng.",
+"Giun là loài vật rất khỏe.",
+"Nên tránh xa những nơi ẩm thấp."
+],
+correct:0,
+explain:"Sức chịu đựng của con người có giới hạn, đừng ép ai tới đường cùng."
+},
+
+{
+type:"meaning",
+question:"Dao sắc không gọt được chuôi.",
+answers:[
+"Dao cùn thì gọt gì cũng khó.",
+"Người tài giỏi vẫn khó xử lý việc của chính mình và người thân.",
+"Nên mài dao thường xuyên."
+],
+correct:1,
+explain:"Chuyện của bản thân thường khó sáng suốt hơn chuyện của người ngoài."
+},
+
+{
+type:"meaning",
+question:"Đàn gảy tai trâu.",
+answers:[
+"Trâu rất thích nghe nhạc.",
+"Nên chơi đàn ở nơi yên tĩnh.",
+"Nói điều hay lẽ phải với người không hiểu hoặc không muốn nghe."
+],
+correct:2,
+explain:"Lời hay ý đẹp trở nên vô nghĩa nếu người nghe chẳng tiếp thu."
+},
+
+{
+type:"meaning",
+question:"Già néo đứt dây.",
+answers:[
+"Ép buộc, căng thẳng quá mức thì mọi việc sẽ hỏng.",
+"Dây cũ thì dễ đứt.",
+"Người già thường yếu sức."
+],
+correct:0,
+explain:"Trong quan hệ và công việc, cần biết dừng đúng lúc."
+},
+
+{
+type:"meaning",
+question:"Mềm nắn rắn buông.",
+answers:[
+"Nên nhẹ nhàng với tất cả mọi người.",
+"Bắt nạt người yếu thế nhưng lại né tránh người cứng rắn.",
+"Vật mềm dễ tạo hình hơn vật cứng."
+],
+correct:1,
+explain:"Câu tục ngữ phê phán thói cư xử theo kiểu bắt nạt kẻ yếu, sợ kẻ mạnh."
+},
+
+{
+type:"meaning",
+question:"Ngậm bồ hòn làm ngọt.",
+answers:[
+"Bồ hòn là loại quả rất ngọt.",
+"Nên ăn nhiều trái cây rừng.",
+"Chịu đựng cay đắng trong lòng mà bề ngoài vẫn tỏ ra bình thường."
+],
+correct:2,
+explain:"Nói về người nén nỗi khổ vào trong, chẳng để lộ ra ngoài."
+},
+
+{
+type:"meaning",
+question:"Nhất nghệ tinh, nhất thân vinh.",
+answers:[
+"Giỏi thật sự một nghề thì đời sống sẽ vững vàng.",
+"Càng biết nhiều nghề càng dễ giàu.",
+"Nghề nào cũng như nghề nào."
+],
+correct:0,
+explain:"Tinh thông một nghề mang lại giá trị hơn biết lơ mơ nhiều nghề."
+},
+
+{
+type:"meaning",
+question:"Phép vua thua lệ làng.",
+answers:[
+"Vua luôn có quyền lực tuyệt đối.",
+"Quy ước lâu đời của địa phương đôi khi có sức chi phối mạnh hơn luật chung.",
+"Làng xã được quyền đặt ra luật riêng."
+],
+correct:1,
+explain:"Phản ánh sức nặng của tập quán, lệ làng trong đời sống cộng đồng xưa."
+},
+
+{
+type:"meaning",
+question:"Rút dây động rừng.",
+answers:[
+"Đi rừng nên cẩn thận dây leo.",
+"Rừng rậm thì nhiều dây.",
+"Đụng vào một việc nhỏ có thể kéo theo hàng loạt việc liên quan."
+],
+correct:2,
+explain:"Nhắc nhở cân nhắc kỹ trước khi khơi ra chuyện có dây mơ rễ má."
+},
+
+{
+type:"meaning",
+question:"Tai vách mạch rừng.",
+answers:[
+"Chuyện kín đáo vẫn dễ lọt ra ngoài, nên cẩn trọng lời ăn tiếng nói.",
+"Tường nhà nên xây dày.",
+"Rừng có nhiều đường mòn."
+],
+correct:0,
+explain:"Lời nói riêng tư vẫn có thể tới tai người khác lúc nào không hay."
+},
+
+{
+type:"meaning",
+question:"Thả con săn sắt, bắt con cá rô.",
+answers:[
+"Nên câu cá vào sáng sớm.",
+"Chịu bỏ cái lợi nhỏ để giành lấy cái lợi lớn hơn.",
+"Cá rô dễ bắt hơn cá săn sắt."
+],
+correct:1,
+explain:"Nói về sự tính toán, đầu tư nhỏ để thu về kết quả lớn."
+},
+
+{
+type:"meaning",
+question:"Trèo cao ngã đau.",
+answers:[
+"Tham vọng vượt quá khả năng thì khi thất bại hậu quả càng nặng.",
+"Không nên leo núi một mình.",
+"Người cao thì dễ té."
+],
+correct:0,
+explain:"Lời nhắc về việc lượng sức mình trước khi đặt mục tiêu quá lớn."
+},
+
+{
+type:"meaning",
+question:"Vỏ quýt dày có móng tay nhọn.",
+answers:[
+"Quýt vỏ dày thường ngọt hơn.",
+"Nên cắt móng tay thường xuyên.",
+"Kẻ lợi hại đến đâu cũng sẽ gặp người trị được mình."
+],
+correct:2,
+explain:"Không ai mạnh mãi, luôn có người cao tay hơn."
+},
+
+{
+type:"meaning",
+question:"Ăn xổi ở thì.",
+answers:[
+"Sống và làm ăn tạm bợ, chỉ tính lợi trước mắt.",
+"Ăn uống đúng bữa, đúng giờ.",
+"Biết tiết kiệm thời gian."
+],
+correct:0,
+explain:"Phê phán lối làm ăn chụp giật, thiếu tính toán lâu dài."
+},
+
+{
+type:"meaning",
+question:"Cõng rắn cắn gà nhà.",
+answers:[
+"Nên nuôi gà tránh xa bụi rậm.",
+"Rước người ngoài về làm hại chính người thân của mình.",
+"Rắn là loài nguy hiểm."
+],
+correct:1,
+explain:"Chỉ hành vi phản bội, tiếp tay cho kẻ ngoài hại người nhà."
+},
+
+{
+type:"meaning",
+question:"Điếc không sợ súng.",
+answers:[
+"Người khiếm thính rất dũng cảm.",
+"Súng nổ rất to.",
+"Thiếu hiểu biết nên liều lĩnh, chẳng thấy nguy hiểm trước mắt."
+],
+correct:2,
+explain:"Sự liều lĩnh này bắt nguồn từ chỗ chưa ý thức được hậu quả."
+},
+
+{
+type:"meaning",
+question:"Đổ dầu vào lửa.",
+answers:[
+"Làm cho mâu thuẫn vốn đang căng lại càng bùng lên dữ dội hơn.",
+"Cách nhóm bếp nhanh nhất.",
+"Dầu là chất dễ cháy."
+],
+correct:0,
+explain:"Chỉ hành động khiến tình hình xấu đi thay vì hòa giải."
+},
+
+{
+type:"meaning",
+question:"Môi hở răng lạnh.",
+answers:[
+"Nên giữ ấm khi trời lạnh.",
+"Những người gắn bó ruột thịt, một bên tổn thương thì bên kia cũng chịu ảnh hưởng.",
+"Răng và môi là hai bộ phận riêng biệt."
+],
+correct:1,
+explain:"Đề cao mối quan hệ nương tựa giữa những người thân thiết."
+},
+
+{
+type:"meaning",
+question:"Mua danh ba vạn, bán danh ba đồng.",
+answers:[
+"Danh tiếng có thể mua bằng tiền.",
+"Nên đầu tư vào quảng cáo.",
+"Gây dựng uy tín rất tốn công, nhưng đánh mất thì chỉ trong chốc lát."
+],
+correct:2,
+explain:"Nhắc nhở giữ gìn danh dự đã mất nhiều năm mới tạo dựng được."
+},
+
+{
+type:"meaning",
+question:"Ngồi mát ăn bát vàng.",
+answers:[
+"Hưởng thành quả dư dả mà chẳng phải vất vả.",
+"Nên ăn cơm ở nơi thoáng mát.",
+"Bát vàng rất đắt tiền."
+],
+correct:0,
+explain:"Thường dùng để nói về người có phần hưởng lớn mà công sức bỏ ra ít."
+},
+
+{
+type:"meaning",
+question:"Người ta là hoa đất.",
+answers:[
+"Hoa là loài đẹp nhất.",
+"Con người là vốn quý nhất, là tinh hoa của đất trời.",
+"Đất tốt thì hoa mới đẹp."
+],
+correct:1,
+explain:"Câu tục ngữ đề cao giá trị của con người."
+},
+
+{
+type:"meaning",
+question:"Sinh nghề tử nghiệp.",
+answers:[
+"Nên chọn nghề an toàn.",
+"Nghề nào cũng có rủi ro như nhau.",
+"Sống bằng nghề nào thì cũng có thể gặp rủi ro từ chính nghề ấy."
+],
+correct:2,
+explain:"Nói về mặt trái, sự nguy hiểm gắn liền với nghề nghiệp của mỗi người."
+},
+
+{
+type:"meaning",
+question:"Tránh vỏ dưa gặp vỏ dừa.",
+answers:[
+"Né được rắc rối này lại vướng phải rắc rối khác.",
+"Nên dọn dẹp sạch sẽ sau khi ăn.",
+"Vỏ dừa trơn hơn vỏ dưa."
+],
+correct:0,
+explain:"Chỉ tình cảnh thoát khỏi khó khăn này thì gặp ngay khó khăn khác."
+},
+
+{
+type:"meaning",
+question:"Việc người thì sáng, việc mình thì quáng.",
+answers:[
+"Ban ngày làm việc hiệu quả hơn ban đêm.",
+"Nhìn việc người khác thì rõ ràng, đến việc mình lại lúng túng, mù mờ.",
+"Nên nhờ người khác làm hộ."
+],
+correct:1,
+explain:"Con người thường thiếu khách quan khi xử lý chuyện của chính mình."
+},
+
+{
+type:"meaning",
+question:"Xanh vỏ đỏ lòng.",
+answers:[
+"Quả chín thì đỏ ruột.",
+"Nên chọn trái cây còn xanh.",
+"Bề ngoài một đằng nhưng bản chất bên trong lại là một nẻo."
+],
+correct:2,
+explain:"Nhắc nhở chớ vội tin vào vẻ ngoài của con người."
+},
+
+{
+type:"meaning",
+question:"Yêu cho roi cho vọt, ghét cho ngọt cho bùi.",
+answers:[
+"Thương thật thì dạy dỗ nghiêm khắc, chiều chuộng dễ dãi lại làm hỏng người.",
+"Nên chiều con cái hết mực.",
+"Đòn roi luôn là cách dạy tốt nhất."
+],
+correct:0,
+explain:"Câu tục ngữ nói về sự nghiêm khắc xuất phát từ tình thương."
+},
+
+{
+type:"meaning",
+question:"Đi guốc trong bụng.",
+answers:[
+"Người xưa hay đi guốc mộc.",
+"Hiểu rõ ý nghĩ, toan tính của người khác tới từng chi tiết.",
+"Ăn xong thì nên đi lại nhẹ nhàng."
+],
+correct:1,
+explain:"Chỉ sự thấu hiểu, đoán trúng suy nghĩ của đối phương."
+},
+
+{
+type:"meaning",
+question:"Há miệng mắc quai.",
+answers:[
+"Cười nhiều thì mỏi miệng.",
+"Quai nón nên buộc chặt.",
+"Vì đã nhận ơn hoặc có lỗi nên không dám lên tiếng."
+],
+correct:2,
+explain:"Chỉ tình cảnh bị ràng buộc khiến người ta phải im lặng."
+},
+
+{
+type:"meaning",
+question:"Nước mắt cá sấu.",
+answers:[
+"Sự thương xót giả tạo, khóc lóc để che giấu ý đồ.",
+"Cá sấu là loài rất tình cảm.",
+"Nước mắt luôn thể hiện sự chân thành."
+],
+correct:0,
+explain:"Chỉ lòng thương vờ vịt của kẻ vừa hại người lại vừa tỏ ra xót xa."
+},
+
+{
+type:"meaning",
+question:"Xởi lởi trời cho, so đo trời lấy lại.",
+answers:[
+"Nên tính toán kỹ mọi khoản chi.",
+"Sống rộng rãi, chan hòa thì được nhiều, còn tính toán chi li lại mất đi.",
+"Trời luôn công bằng với mọi người."
+],
+correct:1,
+explain:"Khuyên sống hào phóng, bớt so kè hơn thiệt."
+},
+
+{
+type:"meaning",
+question:"Ăn ốc nói mò.",
+answers:[
+"Ốc là món ăn dân dã.",
+"Nên mò ốc vào buổi tối.",
+"Nói năng vu vơ, chẳng có căn cứ gì."
+],
+correct:2,
+explain:"Phê phán lối phát ngôn tùy tiện, thiếu cơ sở."
+},
+
+{
+type:"meaning",
+question:"Bụt chùa nhà không thiêng.",
+answers:[
+"Coi nhẹ giá trị của người và việc quen thuộc ngay bên cạnh mình.",
+"Chùa nhỏ thì ít linh thiêng.",
+"Nên đi lễ chùa xa."
+],
+correct:0,
+explain:"Người ta hay trọng cái ở xa mà xem thường cái sẵn có gần mình."
+},
+
+{
+type:"meaning",
+question:"Chạy trời không khỏi nắng.",
+answers:[
+"Nên mang theo ô khi ra đường.",
+"Có những điều tất yếu, dù né tránh cách mấy cũng phải đối diện.",
+"Trời nắng thì nên ở trong nhà."
+],
+correct:1,
+explain:"Chỉ những hậu quả hay quy luật khó lòng trốn thoát."
+},
+
+{
+type:"meaning",
+question:"Kẻ tám lạng, người nửa cân.",
+answers:[
+"Nên cân đo cẩn thận khi mua bán.",
+"Một bên nặng hơn hẳn bên còn lại.",
+"Hai bên ngang tài ngang sức, chẳng ai hơn ai."
+],
+correct:2,
+explain:"Theo cân xưa, một cân bằng mười sáu lạng nên tám lạng đúng bằng nửa cân."
+},
+
+{
+type:"meaning",
+question:"Nhàn cư vi bất thiện.",
+answers:[
+"Rảnh rỗi quá mức dễ sinh ra thói hư tật xấu.",
+"Nghỉ ngơi giúp con người tốt lên.",
+"Người nhàn hạ thường sống thiện lương."
+],
+correct:0,
+explain:"Khuyên nên có công việc, mục tiêu để không sa vào những điều vô bổ."
+},
+
+{
+type:"meaning",
+question:"Chở củi về rừng.",
+answers:[
+"Nên tích trữ củi cho mùa đông.",
+"Làm một việc thừa thãi, vô ích vì nơi đó vốn đã dư thứ ấy.",
+"Rừng là nơi cung cấp củi."
+],
+correct:1,
+explain:"Chỉ việc làm công cốc, chẳng mang lại giá trị gì."
+},
+
+{
+type:"meaning",
+question:"Nước đổ lá khoai.",
+answers:[
+"Lá khoai giữ nước rất tốt.",
+"Nên tưới nước vào gốc cây.",
+"Khuyên bảo mãi mà người nghe chẳng hề tiếp thu."
+],
+correct:2,
+explain:"Nước đổ lên lá khoai thì trôi tuột đi, chẳng đọng lại chút nào."
+},
+
+{
+type:"meaning",
+question:"Chó cắn áo rách.",
+answers:[
+"Người đã khốn khó lại còn gặp thêm rủi ro chồng chất.",
+"Chó thường cắn người lạ.",
+"Nên vá lại áo khi bị rách."
+],
+correct:0,
+explain:"Chỉ cảnh họa vô đơn chí, xui xẻo dồn vào người vốn đã cùng cực."
+},
+
+{
+type:"meaning",
+question:"Bán mặt cho đất, bán lưng cho trời.",
+answers:[
+"Nghề buôn bán ngoài trời rất vất vả.",
+"Nỗi nhọc nhằn của người nông dân quanh năm cày cấy ngoài đồng.",
+"Nên làm việc trong nhà cho đỡ nắng."
+],
+correct:1,
+explain:"Hình ảnh cúi mặt xuống ruộng, phơi lưng dưới nắng của nhà nông."
+},
+
+{
+type:"meaning",
+question:"Của thiên trả địa.",
+answers:[
+"Trời đất luôn công bằng.",
+"Nên tích lũy của cải từ sớm.",
+"Của cải có được không chính đáng thì rồi cũng mất đi."
+],
+correct:2,
+explain:"Cái gì đến dễ dàng hoặc bất minh thì cũng ra đi nhanh chóng."
+},
+
+{
+type:"meaning",
+question:"Giấu đầu hở đuôi.",
+answers:[
+"Che giấu vụng về nên trước sau gì cũng bị lộ.",
+"Nên giấu kỹ đồ đạc quý.",
+"Đầu và đuôi luôn đi cùng nhau."
+],
+correct:0,
+explain:"Chỉ sự che đậy thiếu kín kẽ, bịt được chỗ này lại hở chỗ kia."
+},
+
+{
+type:"meaning",
+question:"Học tài thi phận.",
+answers:[
+"Cứ học giỏi là thi sẽ đỗ.",
+"Có tài học thật nhưng kết quả thi cử lại phụ thuộc cả vào may rủi.",
+"Thi cử không cần chuẩn bị."
+],
+correct:1,
+explain:"An ủi những người học giỏi nhưng gặp trục trặc trong kỳ thi."
+},
+
+{
+type:"meaning",
+question:"Nói trước bước không qua.",
+answers:[
+"Nên thông báo kế hoạch cho mọi người.",
+"Người nói nhiều thường đi nhanh.",
+"Khoe khoang, chắc chắn quá sớm về việc chưa làm thì dễ chẳng thành."
+],
+correct:2,
+explain:"Lời khuyên nên khiêm tốn, làm xong rồi hãy nói."
+},
+
+{
+type:"meaning",
+question:"Lành làm gáo, vỡ làm muôi.",
+answers:[
+"Biết tận dụng mọi hoàn cảnh, hỏng việc lớn thì xoay sang việc nhỏ.",
+"Gáo dừa rất bền.",
+"Đồ vỡ thì nên bỏ đi."
+],
+correct:0,
+explain:"Đề cao sự linh hoạt, tiết kiệm và thích nghi."
+},
+
+{
+type:"meaning",
+question:"Một miếng giữa làng bằng một sàng xó bếp.",
+answers:[
+"Ăn ở nhà ngon hơn ăn ngoài.",
+"Phần được hưởng nơi công khai, có danh dự quý hơn nhiều thứ hưởng lén lút.",
+"Nên chia đều thức ăn cho cả làng."
+],
+correct:1,
+explain:"Nói về giá trị của danh dự và sự thừa nhận trước cộng đồng."
+},
+
+{
+type:"meaning",
+question:"Rừng vàng biển bạc.",
+answers:[
+"Vàng bạc thường được chôn trong rừng.",
+"Nên khai thác tài nguyên triệt để.",
+"Tài nguyên thiên nhiên của đất nước rất phong phú, quý giá."
+],
+correct:2,
+explain:"Câu nói ngợi ca sự giàu có của rừng và biển nước ta."
+},
+
+{
+type:"meaning",
+question:"Tích cốc phòng cơ, tích y phòng hàn.",
+answers:[
+"Dành dụm lúc dư dả để phòng khi thiếu thốn.",
+"Nên mua nhiều quần áo mới.",
+"Lúa gạo để lâu sẽ hỏng."
+],
+correct:0,
+explain:"Trữ thóc phòng khi đói, trữ áo phòng khi rét, đó là tinh thần lo xa."
+},
+
+{
+type:"meaning",
+question:"Nói một đằng làm một nẻo.",
+answers:[
+"Nên nói ngắn gọn.",
+"Lời nói và hành động trái ngược nhau.",
+"Đường nào cũng dẫn tới đích."
+],
+correct:1,
+explain:"Phê phán sự thiếu nhất quán giữa lời hứa và việc làm."
+},
+
+{
+type:"meaning",
+question:"Sống chết mặc bay.",
+answers:[
+"Nên để mọi người tự lo liệu.",
+"Sinh tử là chuyện của trời.",
+"Thái độ vô trách nhiệm, dửng dưng trước hoạn nạn của người khác."
+],
+correct:2,
+explain:"Câu nói gắn với truyện ngắn cùng tên của Phạm Duy Tốn, phê phán sự vô cảm."
+},
+
+{
+type:"meaning",
+question:"Cơm chẳng lành, canh chẳng ngọt.",
+answers:[
+"Quan hệ trong nhà lục đục, bất hòa.",
+"Bữa ăn thiếu gia vị.",
+"Nên học nấu ăn cho khéo."
+],
+correct:0,
+explain:"Cách nói bóng bẩy về mâu thuẫn giữa vợ chồng, người trong một nhà."
+},
+
+{
+type:"meaning",
+question:"Gạn đục khơi trong.",
+answers:[
+"Nên lọc nước trước khi uống.",
+"Biết loại bỏ cái xấu, giữ lại và phát huy cái tốt.",
+"Nước đục thì không dùng được."
+],
+correct:1,
+explain:"Thái độ chắt lọc, gìn giữ những gì tinh túy nhất."
+},
+
+{
+type:"meaning",
+question:"Lòng lang dạ thú.",
+answers:[
+"Người yêu quý động vật.",
+"Người có sức khỏe phi thường.",
+"Kẻ có tâm địa độc ác, tàn nhẫn."
+],
+correct:2,
+explain:"Thành ngữ chỉ bản chất nhẫn tâm, mất hết tính người."
+},
+
+{
+type:"meaning",
+question:"Mẹ tròn con vuông.",
+answers:[
+"Lời chúc mừng khi mẹ và bé đều khỏe mạnh sau sinh nở.",
+"Hình dáng của mẹ và con.",
+"Cách chăm sóc trẻ sơ sinh."
+],
+correct:0,
+explain:"Câu chúc quen thuộc dành cho sản phụ vượt cạn bình an."
+},
+
+{
+type:"meaning",
+question:"Ơn trả nghĩa đền.",
+answers:[
+"Nên ghi chép mọi khoản nợ.",
+"Sống biết đáp lại ân tình mà người khác đã dành cho mình.",
+"Ơn nghĩa nên quy ra tiền bạc."
+],
+correct:1,
+explain:"Đề cao đạo lý ăn ở có trước có sau."
+},
+
+{
+type:"meaning",
+question:"Chậm mà chắc.",
+answers:[
+"Càng nhanh càng tốt.",
+"Chậm chạp là một khuyết điểm.",
+"Làm từ tốn, kỹ lưỡng còn hơn vội vàng rồi hỏng việc."
+],
+correct:2,
+explain:"Đề cao sự cẩn trọng và bền vững thay vì tốc độ."
+},
+
+// ===== SITUATION (25 câu) =====
+
+{
+type:"situation",
+question:"Một đồng nghiệp luôn nhận phần việc nhẹ, đến lúc khó khăn lại lùi ra sau. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Ăn cỗ đi trước, lội nước theo sau.",
+"Có công mài sắt, có ngày nên kim.",
+"Lửa thử vàng, gian nan thử sức."
+],
+correct:0,
+explain:"Câu tục ngữ phê phán thói khôn lỏi, chỉ giành phần lợi."
+},
+
+{
+type:"situation",
+question:"Sau khi được người bạn giúp vốn làm ăn, anh ta thành công rồi cắt đứt liên lạc. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Thua keo này, bày keo khác.",
+"Qua cầu rút ván.",
+"Tích tiểu thành đại."
+],
+correct:1,
+explain:"Đạt được mục đích rồi quay lưng với người từng nâng đỡ mình."
+},
+
+{
+type:"situation",
+question:"Một người tung tin đồn hại đồng nghiệp nhưng luôn tỏ ra vô can. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Ném đá giấu tay.",
+"Ở hiền gặp lành.",
+"Năng nhặt chặt bị."
+],
+correct:0,
+explain:"Chỉ hành vi làm điều xấu rồi giấu nhẹm vai trò của mình."
+},
+
+{
+type:"situation",
+question:"Đã ký hợp đồng và khởi công, dù khó khăn công ty vẫn buộc phải hoàn thành dự án. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Nước chảy đá mòn.",
+"Đâm lao phải theo lao.",
+"Có mới nới cũ."
+],
+correct:1,
+explain:"Đã bắt đầu thì buộc phải đi tiếp, khó lòng quay đầu."
+},
+
+{
+type:"situation",
+question:"Nhân viên mới tự ý công bố thông tin khi cấp trên chưa phê duyệt. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Cầm đèn chạy trước ô tô.",
+"Đi một ngày đàng, học một sàng khôn.",
+"Thương người như thể thương thân."
+],
+correct:0,
+explain:"Làm vượt trước thẩm quyền và trình tự cần có."
+},
+
+{
+type:"situation",
+question:"Một người quản lý luôn săm soi những lỗi rất nhỏ của cấp dưới để chê trách. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Lá lành đùm lá rách.",
+"Uống nước nhớ nguồn.",
+"Bới lông tìm vết."
+],
+correct:2,
+explain:"Cố tìm cho ra khuyết điểm vụn vặt nhằm bắt bẻ người khác."
+},
+
+{
+type:"situation",
+question:"Một bạn mới vào nghề thao thao giảng giải kỹ thuật trước mặt người thợ ba mươi năm kinh nghiệm. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Múa rìu qua mắt thợ.",
+"Có chí thì nên.",
+"Đói cho sạch, rách cho thơm."
+],
+correct:0,
+explain:"Khoe tài trước đúng người giỏi hơn mình nhiều lần."
+},
+
+{
+type:"situation",
+question:"Đã hứa sửa đổi nhiều lần nhưng anh ta vẫn lặp lại đúng sai lầm cũ. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Tre già măng mọc.",
+"Ngựa quen đường cũ.",
+"Thất bại là mẹ thành công."
+],
+correct:1,
+explain:"Thói quen xấu đã ăn sâu nên rất dễ tái diễn."
+},
+
+{
+type:"situation",
+question:"Một cậu bé mới học vài tháng đã lên giọng dạy lại chính thầy của mình. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Kính trên nhường dưới.",
+"Tốt gỗ hơn tốt nước sơn.",
+"Trứng khôn hơn vịt."
+],
+correct:2,
+explain:"Chỉ kẻ non nớt nhưng lại tỏ ra hiểu biết hơn bậc từng trải."
+},
+
+{
+type:"situation",
+question:"Quản lý đi công tác một tuần, cả bộ phận làm việc lơ là, giờ giấc lộn xộn. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Vắng chủ nhà, gà mọc đuôi tôm.",
+"Một con ngựa đau, cả tàu bỏ cỏ.",
+"Nói có sách, mách có chứng."
+],
+correct:0,
+explain:"Thiếu người quản lý thì mọi thứ dễ buông thả."
+},
+
+{
+type:"situation",
+question:"Gia đình cắt giảm mọi khoản chi không cần thiết để dành tiền chữa bệnh cho ông. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Đứng núi này trông núi nọ.",
+"Thắt lưng buộc bụng.",
+"Cá lớn nuốt cá bé."
+],
+correct:1,
+explain:"Chấp nhận kham khổ, tiết kiệm tối đa vì mục tiêu quan trọng."
+},
+
+{
+type:"situation",
+question:"Thu nhập còn khiêm tốn nên chị chọn tổ chức đám cưới gọn nhẹ, ấm cúng. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Liệu cơm gắp mắm.",
+"Được voi đòi tiên.",
+"Ăn không ngồi rồi."
+],
+correct:0,
+explain:"Biết cân đối chi tiêu theo đúng khả năng của mình."
+},
+
+{
+type:"situation",
+question:"Suốt năm năm chịu cực làm đêm, học thêm, cuối cùng anh cũng mở được xưởng riêng. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Đèn nhà ai nấy rạng.",
+"Nằm gai nếm mật.",
+"Gieo gió gặt bão."
+],
+correct:1,
+explain:"Chịu đựng gian khổ dài lâu để thực hiện chí lớn."
+},
+
+{
+type:"situation",
+question:"Khu công nghiệp có chính sách tốt nên lao động khắp nơi kéo về sinh sống. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Đất lành chim đậu.",
+"Trâu buộc ghét trâu ăn.",
+"Khôn nhà dại chợ."
+],
+correct:0,
+explain:"Nơi có môi trường tốt sẽ tự nhiên thu hút người tìm đến."
+},
+
+{
+type:"situation",
+question:"Đang thất nghiệp thì anh được người quen giới thiệu vào một công ty lương cao, đãi ngộ tốt. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Ác giả ác báo.",
+"Tham thì thâm.",
+"Chuột sa chĩnh gạo."
+],
+correct:2,
+explain:"May mắn rơi đúng vào hoàn cảnh thuận lợi, dư dả."
+},
+
+{
+type:"situation",
+question:"Nhận cùng lúc hai lời mời làm việc, anh hứa hẹn cả hai nơi rồi cuối cùng mất cả hai cơ hội. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Bắt cá hai tay.",
+"Có công mài sắt, có ngày nên kim.",
+"Lời chào cao hơn mâm cỗ."
+],
+correct:0,
+explain:"Tham cả hai bên nên rốt cuộc chẳng giữ được bên nào."
+},
+
+{
+type:"situation",
+question:"Cuộc họp kéo dài hai tiếng mà mỗi người bàn một chuyện chẳng ăn nhập gì nhau. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Thuận vợ thuận chồng, tát biển Đông cũng cạn.",
+"Ông nói gà, bà nói vịt.",
+"Có thực mới vực được đạo."
+],
+correct:1,
+explain:"Chỉ tình trạng nói chuyện lệch pha, chẳng ai hiểu ai."
+},
+
+{
+type:"situation",
+question:"Cửa hàng vừa gặp khó khăn thì các đối thủ lập tức tung khuyến mãi lấn tới. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Giậu đổ bìm leo.",
+"Một miếng khi đói bằng một gói khi no.",
+"Ở hiền gặp lành."
+],
+correct:0,
+explain:"Thấy người ta suy sụp thì tranh thủ chèn ép thêm."
+},
+
+{
+type:"situation",
+question:"Một nhân viên làm sai quy trình nhưng cả phòng bị trừ thưởng. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Có làm thì mới có ăn.",
+"Quýt làm cam chịu.",
+"Đi thưa, về trình."
+],
+correct:1,
+explain:"Người gây lỗi một đằng, người gánh hậu quả lại là người khác."
+},
+
+{
+type:"situation",
+question:"Dự án thất bại, thay vì đổ lỗi, trưởng nhóm ngồi lại rà soát phần trách nhiệm của chính mình. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Tiên trách kỷ, hậu trách nhân.",
+"Cây ngay không sợ chết đứng.",
+"Của bền tại người."
+],
+correct:0,
+explain:"Tự xem lại mình trước khi quy trách nhiệm cho người khác."
+},
+
+{
+type:"situation",
+question:"Làm hỏng việc nhưng anh ta luôn có sẵn lý do rất trơn tru để biện minh. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Học ăn, học nói, học gói, học mở.",
+"Vụng chèo khéo chống.",
+"Thắng không kiêu, bại không nản."
+],
+correct:1,
+explain:"Năng lực làm việc kém nhưng tài ăn nói che đậy thì khéo."
+},
+
+{
+type:"situation",
+question:"Nhập sai một con số trong hợp đồng khiến công ty thiệt hại cả trăm triệu. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Sai một li đi một dặm.",
+"Muốn ăn phải lăn vào bếp.",
+"Chim có tổ, người có tông."
+],
+correct:0,
+explain:"Sai sót rất nhỏ có thể dẫn tới hậu quả rất lớn."
+},
+
+{
+type:"situation",
+question:"Nhà có việc gấp lúc nửa đêm, anh em ruột ở xa cả nghìn cây số nên hàng xóm là người chạy sang đầu tiên. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Giận quá mất khôn.",
+"Cái nết đánh chết cái đẹp.",
+"Nước xa không cứu được lửa gần."
+],
+correct:2,
+explain:"Sự giúp đỡ ở xa khó kịp thời bằng người ở ngay bên cạnh."
+},
+
+{
+type:"situation",
+question:"Không chịu đi làm, cậu ta chỉ ngồi nhà chờ người quen giới thiệu một công việc lương cao. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Há miệng chờ sung.",
+"Lao động là vinh quang.",
+"Đói ăn rau, đau uống thuốc."
+],
+correct:0,
+explain:"Trông chờ vận may rơi xuống thay vì tự mình hành động."
+},
+
+{
+type:"situation",
+question:"Trước khi hợp tác, chị đưa ra mọi điều khoản rõ ràng dù biết đối tác sẽ hơi phật ý. Câu tục ngữ nào phù hợp nhất?",
+answers:[
+"Im lặng là vàng.",
+"Mất lòng trước, được lòng sau.",
+"Tránh voi chẳng xấu mặt nào."
+],
+correct:1,
+explain:"Nói thẳng ngay từ đầu để về sau tránh mâu thuẫn đáng tiếc."
+},
+
+// ===== COMPLETE (10 câu) =====
+
+{
+type:"complete",
+question:"Không thầy đố mày...",
+answers:[
+"...làm nên.",
+"...biết chữ.",
+"...thành tài."
+],
+correct:0,
+explain:"Câu tục ngữ đề cao vai trò của người thầy trong sự trưởng thành của mỗi người."
+},
+
+{
+type:"complete",
+question:"Trăm nghe không bằng...",
+answers:[
+"...trăm nói.",
+"...một thấy.",
+"...một lời khuyên."
+],
+correct:1,
+explain:"Tận mắt chứng kiến đáng tin hơn nghe kể lại rất nhiều lần."
+},
+
+{
+type:"complete",
+question:"Ăn cháo...",
+answers:[
+"...húp quanh.",
+"...trả cơm.",
+"...đá bát."
+],
+correct:2,
+explain:"Chỉ kẻ vô ơn, quay lưng với chính người đã cưu mang mình."
+},
+
+{
+type:"complete",
+question:"Kiến tha lâu...",
+answers:[
+"...cũng mỏi chân.",
+"...đầy tổ.",
+"...cũng nên đàn."
+],
+correct:1,
+explain:"Góp nhặt bền bỉ từng chút một rồi sẽ thành cơ nghiệp."
+},
+
+{
+type:"complete",
+question:"Lá rụng...",
+answers:[
+"...về cội.",
+"...đầy sân.",
+"...theo gió."
+],
+correct:0,
+explain:"Con người dù đi xa tới đâu, cuối cùng vẫn hướng về quê hương nguồn cội."
+},
+
+{
+type:"complete",
+question:"Vạn sự khởi đầu...",
+answers:[
+"...suôn sẻ.",
+"...may mắn.",
+"...nan."
+],
+correct:2,
+explain:"Bước khởi đầu bao giờ cũng là chặng gian nan nhất."
+},
+
+{
+type:"complete",
+question:"Được voi...",
+answers:[
+"...đòi tiên.",
+"...quên ngựa.",
+"...mừng rỡ."
+],
+correct:0,
+explain:"Phê phán lòng tham, có được thứ này lại đòi hỏi thêm thứ khác."
+},
+
+{
+type:"complete",
+question:"Đầu voi...",
+answers:[
+"...mình hổ.",
+"...đuôi chuột.",
+"...chân ngựa."
+],
+correct:1,
+explain:"Khởi đầu rầm rộ nhưng kết thúc thì hời hợt, chẳng ra gì."
+},
+
+{
+type:"complete",
+question:"Chín người...",
+answers:[
+"...một lòng.",
+"...chín việc.",
+"...mười ý."
+],
+correct:2,
+explain:"Đông người thì nhiều quan điểm khác nhau, rất khó thống nhất."
+},
+
+{
+type:"complete",
+question:"Góp gió...",
+answers:[
+"...thành bão.",
+"...thành mây.",
+"...nên mưa."
+],
+correct:0,
+explain:"Nhiều sức nhỏ hợp lại sẽ tạo ra sức mạnh rất lớn."
+},
+
+// ===== REVERSE (10 câu) =====
+
+{
+type:"reverse",
+question:"Câu thành ngữ nào phê phán cách nhìn nhận phiến diện, chỉ thấy một phần đã vội kết luận?",
+answers:[
+"Thầy bói xem voi.",
+"Nước chảy đá mòn.",
+"Tre già măng mọc."
+],
+correct:0,
+explain:"Mỗi thầy bói sờ một bộ phận rồi đều tưởng mình đã biết cả con voi."
+},
+
+{
+type:"reverse",
+question:"Câu nào khuyên rằng vội vàng hấp tấp thì khó đạt được kết quả?",
+answers:[
+"Có chí thì nên.",
+"Dục tốc bất đạt.",
+"Lời chào cao hơn mâm cỗ."
+],
+correct:1,
+explain:"Muốn nhanh mà bỏ qua các bước cần thiết thì thường hỏng việc."
+},
+
+{
+type:"reverse",
+question:"Câu nào đề cao việc chủ động ngăn ngừa rủi ro từ sớm?",
+answers:[
+"Tham thì thâm.",
+"Ăn chắc mặc bền.",
+"Phòng bệnh hơn chữa bệnh."
+],
+correct:2,
+explain:"Ngăn chặn từ đầu bao giờ cũng đỡ tốn kém hơn khắc phục hậu quả."
+},
+
+{
+type:"reverse",
+question:"Câu thành ngữ nào nói về việc cưu mang chính kẻ sau này quay lại hại mình?",
+answers:[
+"Nuôi ong tay áo.",
+"Ở hiền gặp lành.",
+"Đất lành chim đậu."
+],
+correct:0,
+explain:"Nuôi dưỡng ngay bên mình một mối nguy mà chẳng hay biết."
+},
+
+{
+type:"reverse",
+question:"Câu nào đề cao giá trị của việc thực hành, làm nhiều thành quen?",
+answers:[
+"Ăn vóc học hay.",
+"Trăm hay không bằng tay quen.",
+"Khôn ba năm, dại một giờ."
+],
+correct:1,
+explain:"Lý thuyết suông khó sánh với kỹ năng rèn giũa qua thực tế."
+},
+
+{
+type:"reverse",
+question:"Câu nào nói về tình cảm phai nhạt dần khi người ta ít gặp gỡ nhau?",
+answers:[
+"Anh em như thể tay chân.",
+"Bán anh em xa, mua láng giềng gần.",
+"Xa mặt cách lòng."
+],
+correct:2,
+explain:"Khoảng cách và thời gian có thể làm nguội đi những gắn bó từng thân thiết."
+},
+
+{
+type:"reverse",
+question:"Câu nào khuyên phải cân nhắc thật kỹ trước khi phát ngôn?",
+answers:[
+"Uốn lưỡi bảy lần trước khi nói.",
+"Nói có sách, mách có chứng.",
+"Ăn ngay nói thật."
+],
+correct:0,
+explain:"Lời đã nói ra khó thu lại, nên suy nghĩ chín chắn trước."
+},
+
+{
+type:"reverse",
+question:"Câu thành ngữ nào chỉ việc mưu hại người khác rốt cuộc lại chuốc họa vào thân?",
+answers:[
+"Tránh voi chẳng xấu mặt nào.",
+"Gậy ông đập lưng ông.",
+"Giận quá mất khôn."
+],
+correct:1,
+explain:"Chính mưu kế của kẻ hại người lại quay ngược trở lại giáng xuống họ."
+},
+
+{
+type:"reverse",
+question:"Câu nào nói rằng hoàn cảnh ngặt nghèo thường buộc con người nghĩ ra cách xoay xở?",
+answers:[
+"Ăn không ngồi rồi.",
+"Của bền tại người.",
+"Cái khó ló cái khôn."
+],
+correct:2,
+explain:"Áp lực và thiếu thốn nhiều khi lại khơi ra sáng kiến bất ngờ."
+},
+
+{
+type:"reverse",
+question:"Câu nào nhắc rằng hàng giá quá rẻ thường đi kèm chất lượng kém?",
+answers:[
+"Của rẻ là của ôi.",
+"Có qua có lại mới toại lòng nhau.",
+"Năng nhặt chặt bị."
+],
+correct:0,
+explain:"Câu tục ngữ cảnh báo về cái giá thật sự phía sau món hàng rẻ bất thường."
+},
 {
 type:"complete",
 question:"Gieo nhân nào...",
